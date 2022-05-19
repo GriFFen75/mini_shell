@@ -1,0 +1,1 @@
+/usr/bin/gcc -g CMakeFiles/untitled1.dir/main.c.o CMakeFiles/untitled1.dir/mylib/mystring.c.o -o untitled1 

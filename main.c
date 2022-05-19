@@ -5,9 +5,17 @@
 #include "mylib/mystring.h"
 
 
-char mystrcat(char ** tab,char *mot){
-    //for (int i = 0 ; )
-    return NULL;
+// j'etait en train de faire le strcat
+
+char **mystrcat(char ** tab,char *mot){
+
+        char **s = tab;
+        while (*s)
+            tab++;
+        while (**tab++ = *mot++)
+            ;
+
+        return (s);
 }
 
 
@@ -24,14 +32,17 @@ char * shell_read_line(){
 
 char** shell_split_line(char * line){
     char *commande;
-    char **splitCommande;
+    char **splitCommande = malloc (sizeof(splitCommande));
     //size_t tailleCommande = mystrlen(line)+1;
+    int i = 0;
     char *strToken = mystrtok(line);
     commande=strToken;
     while (strToken != NULL){
-        mystrcat(splitCommande,strToken);
+        //mystrcat(splitCommande,strToken);
+        //splitCommande =
         printf("Token = %s\n",strToken);
         strToken=mystrtok(NULL);
+        i++;
     }
     printf("la commande apres strtok est : %s\n",commande);
     /*
@@ -53,9 +64,13 @@ char** shell_split_line(char * line){
 }
 
 int shell_execute(char** chaineSplit){
-    if (chaineSplit[1]=="exit"){
-        //exit(0);
+    if (chaineSplit[1]!="exit"){
+
     }
+    else {
+        //return EXIT_SUCCESS;
+    }
+
 }
 
 void shell_loop(void){
@@ -67,8 +82,8 @@ void shell_loop(void){
         printf("Esiea_shell_> ");
         line = shell_read_line();
         chaineSplit = shell_split_line(line); //separation commande et option
-        printf("dans shell : %s\n",chaineSplit);
-        printf("printf dans shell_loop %s\n",line);
+        //printf("dans shell chaineSplit : %s\n",chaineSplit[0][1]);
+        printf("printf dans shell_loop : %s\n",line);
         status = shell_execute(chaineSplit);
         free(line);
         //free(chaineSplit);
