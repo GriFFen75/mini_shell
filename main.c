@@ -36,7 +36,7 @@ char** shell_split_line(char * line){
 }
 
 int shell_execute(char** chaineSplit){
-
+    printf("La chaineSplit[0] dans shell_execute : %s",chaineSplit[0]);
 
 }
 
