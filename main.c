@@ -5,20 +5,6 @@
 #include "mylib/mystring.h"
 
 
-// j'etait en train de faire le strcat
-
-char **mystrcat(char ** tab,char *mot){
-
-        char **s = tab;
-        while (*s)
-            tab++;
-        while (**tab++ = *mot++)
-            ;
-
-        return (s);
-}
-
-
 char * shell_read_line(){
     char *commande ;
     size_t len = mystrlen(commande);
@@ -39,54 +25,35 @@ char** shell_split_line(char * line){
     commande=strToken;
     while (strToken != NULL){
         //mystrcat(splitCommande,strToken);
-        //splitCommande =
-        printf("Token = %s\n",strToken);
+        splitCommande[i] = strToken;
+        //printf("Token = %s\n",strToken);
         strToken=mystrtok(NULL);
+        printf("Le mot %d est : %s\n",i,splitCommande[i]);
         i++;
     }
     printf("la commande apres strtok est : %s\n",commande);
-    /*
-    printf("la commande : %s",line);
-    //printf("longueur de line : %ld",tailleCommande);
-    for (int i = 0; line[i] != NULL ;i++){
-            buffer[i] = line[i];
-            printf("\n\ni = %d \n\n",i);
-        if (line[i]==' '){
-            //printf("\n\nsalut\n\n");
-            for(int j = 0 ; buffer[j] <= i ; j++){
-                commande[j] = buffer[j];
-            }
-
-
-        }
-    }*/
-
+    return (splitCommande);
 }
 
 int shell_execute(char** chaineSplit){
-    if (chaineSplit[1]!="exit"){
 
-    }
-    else {
-        //return EXIT_SUCCESS;
-    }
 
 }
 
 void shell_loop(void){
     char *line;
     line = malloc(sizeof(shell_read_line()));
-    char **chaineSplit;
+    char **chaineSplit = malloc (sizeof(chaineSplit));;
     int status;
     do {
         printf("Esiea_shell_> ");
         line = shell_read_line();
         chaineSplit = shell_split_line(line); //separation commande et option
-        //printf("dans shell chaineSplit : %s\n",chaineSplit[0][1]);
+        printf("dans shell_loop chaineSplit[1] : %s\n",chaineSplit[1]);
         printf("printf dans shell_loop : %s\n",line);
         status = shell_execute(chaineSplit);
         free(line);
-        //free(chaineSplit);
+        free(chaineSplit);
     } while (status);
 }
 
