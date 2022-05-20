@@ -12,7 +12,10 @@ char * shell_read_line(){
     commande = (char *) malloc(len * sizeof(char));
 
     caractere = getline(&commande,&len,stdin);
-    printf("print dans shell_read_line : %s\nLe nombre de caractère : %ld \n",commande,caractere);
+
+    printf("Len : %d\nprint dans shell_read_line : %s\nLe nombre de caractère : %ld \n",len,commande,caractere);
+    commande[caractere],commande[caractere-1]='\0';
+
     return commande;
 }
 
@@ -36,20 +39,29 @@ char** shell_split_line(char * line){
 }
 
 int shell_execute(char** chaineSplit){
-    printf("La chaineSplit[0] dans shell_execute : %s",chaineSplit[0]);
+    char *commande = chaineSplit[0];
+    printf("La chaineSplit[0] dans shell_execute : |%s|\n",chaineSplit[0]);
+    printf("La commande dans shell_execute : |%s|",commande);
+//    switch ((int) commande)
+//        case 'cd':
+//            printf("le cd est bon");
+    if ((int) commande =="cd"){
+        printf("le cd est bon");
+    }
+} // impossible de faire fonctionner l'utilisation de la recup de la commande
 
-}
+
 
 void shell_loop(void){
     char *line;
     line = malloc(sizeof(shell_read_line()));
-    char **chaineSplit = malloc (sizeof(chaineSplit));;
+    char **chaineSplit = malloc (sizeof(chaineSplit));
     int status;
     do {
-        printf("Esiea_shell_> ");
+        printf("\nEsiea_shell_> ");
         line = shell_read_line();
         chaineSplit = shell_split_line(line); //separation commande et option
-        printf("dans shell_loop chaineSplit[1] : %s\n",chaineSplit[1]);
+        printf("dans shell_loop chaineSplit[0] : %s\n",chaineSplit[0]);
         printf("printf dans shell_loop : %s\n",line);
         status = shell_execute(chaineSplit);
         free(line);
