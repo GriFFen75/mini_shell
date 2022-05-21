@@ -8,14 +8,12 @@
 #include <stdlib.h>
 
 
-int mystrlen(const char *str)
-{
+int mystrlen(const char *str){
     int i;
     for (i=0;str[i]!='\0';i++);
     return i;
 }
-char *my_strcpy(char *dest,const char *str)
-{
+char *my_strcpy(char *dest,const char *str){
     int i;
     int x = mystrlen(str);
     dest= malloc (sizeof(char)*x+1);
@@ -33,8 +31,7 @@ char *my_strcpy(char *dest,const char *str)
         return dest;
     }
 }
-char *my_string_n_cpy(char *dest,const char *str,int n)
-{
+char *my_string_n_cpy(char *dest,const char *str,int n){
     int i=0;
     int x = mystrlen(str);
     dest= malloc (sizeof(char)*x+1);
@@ -47,7 +44,7 @@ char *my_string_n_cpy(char *dest,const char *str,int n)
     return dest;
 }
 
-char* mystrchr(char *p, char separateur) {
+char* mystrchr(char *p, char separateur) { //recherche le caractère placer en parametre (ici mon separateur)
     do{
         if (*p == separateur){
             return (char*)p;
@@ -56,19 +53,20 @@ char* mystrchr(char *p, char separateur) {
     return 0;
 }
 
-char* mystrtok(char *chaine){
+char* mystrtok(char *chaine){ //Pour extraire mes tokens
     static char *p;
     static int offset;
     char separateur = ' ';
 
-    /* premier appel avec une chaine*/
+    // premier appel avec une chaine
     if(chaine != NULL){
         p = chaine;
         offset = 0;
     }
-        /* appels suivants */
-    else
+        // appels suivants
+    else{
         p += offset;
+    }
 
     if(*p != '\0'){
         char *sep = mystrchr(p, separateur);
@@ -80,9 +78,23 @@ char* mystrtok(char *chaine){
 
         return p;
     }
-    else
+    else{
         offset = 0;
-
+    }
     return NULL;
+}
+
+int mystrcmp(const char *s1, const char *s2){ // pour comparer 2 chaines (renvoie 0 si identique)
+    int ret = 0;
+
+    while (!(ret = *(unsigned char *) s1 - *(unsigned char *) s2) && *s2) ++s1, ++s2;
+
+    if (ret < 0) {
+        ret = -1;
+    }
+    else if (ret > 0){
+        ret = 1 ;
+    }
+    return ret;
 }
 

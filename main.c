@@ -3,9 +3,11 @@
 #include <unistd.h>
 
 #include "mylib/mystring.h"
+//#include "mylib/mystring.c" mettre celui la si on veut faire avec le terminal
 
 
-char * shell_read_line(){
+
+char * shell_read_line(){ //fonctione pour lire les ligne rentré
     char *commande ;
     size_t len = mystrlen(commande);
     size_t caractere;
@@ -13,13 +15,13 @@ char * shell_read_line(){
 
     caractere = getline(&commande,&len,stdin);
 
-    printf("Len : %d\nprint dans shell_read_line : %s\nLe nombre de caractère : %ld \n",len,commande,caractere);
-    commande[caractere],commande[caractere-1]='\0';
+    printf("Len : %zu\nprint dans shell_read_line : %s\nLe nombre de caractère : %ld \n",len,commande,caractere);
+    commande[caractere-1]='\0'; //commande[caractere],
 
     return commande;
 }
 
-char** shell_split_line(char * line){
+char** shell_split_line(char * line){ //separe la ligne recupere
     char *commande;
     char **splitCommande = malloc (sizeof(splitCommande));
     //size_t tailleCommande = mystrlen(line)+1;
@@ -38,24 +40,38 @@ char** shell_split_line(char * line){
     return (splitCommande);
 }
 
-int shell_execute(char** chaineSplit){
+int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
     char *commande = chaineSplit[0];
     printf("La chaineSplit[0] dans shell_execute : |%s|\n",chaineSplit[0]);
     printf("La commande dans shell_execute : |%s|",commande);
 //    switch ((int) commande)
 //        case 'cd':
 //            printf("le cd est bon");
-    if ((int) commande =="cd"){
-        printf("le cd est bon");
+//    if ((int) commande =="cd"){
+//        printf("le cd est bon");
+//    }
+    if (mystrcmp(commande,"cd")==0){
+        printf("\nle cd est bon\n");
     }
-} // impossible de faire fonctionner l'utilisation de la recup de la commande
+    else if (mystrcmp(commande,"ls")==0){
+        printf("\nle ls est bon\n");
+    }
+    else if (mystrcmp(commande,"echo")==0){//juste faire un printf de ce qu'il y a en parametre
+        printf("\nle echo est bon\n");
+    }
+    else if (mystrcmp(commande,"md")==0){ //mkdir
+        printf("\nle md/mkdir est bon\n");
+    }
+    //printf("\nle mystrcmp : %d",mystrcmp(commande,"cd"));
+}
 
 
 
 void shell_loop(void){
     char *line;
     line = malloc(sizeof(shell_read_line()));
-    char **chaineSplit = malloc (sizeof(chaineSplit));
+    char **chaineSplit;
+    chaineSplit = malloc (sizeof(shell_split_line(line)));
     int status;
     do {
         printf("\nEsiea_shell_> ");
@@ -75,6 +91,6 @@ int main(int argc, char **argv){
     printf("Mini SHELL - exit pour Quitter \n");
     // Run command loop.
     shell_loop();
-    printf("Fin du Mini SHELL \n");
+    printf("\nFin du Mini SHELL \n");
     return EXIT_SUCCESS;
 }

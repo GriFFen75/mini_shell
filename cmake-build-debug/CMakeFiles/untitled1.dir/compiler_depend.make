@@ -60,6 +60,8 @@ CMakeFiles/untitled1.dir/main.c.o: ../main.c \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  ../mylib/mystring.h \
+  ../mylib/mystring.c \
   ../mylib/mystring.h
 
 CMakeFiles/untitled1.dir/mylib/mystring.c.o: ../mylib/mystring.c \
