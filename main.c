@@ -7,6 +7,7 @@
 
 
 int NbArguments;
+int Nbcaractere;
 
 char * shell_read_line(){ //fonctione pour lire les ligne rentré
     char *commande ;
@@ -18,26 +19,22 @@ char * shell_read_line(){ //fonctione pour lire les ligne rentré
 
     printf("Len : %zu\nprint dans shell_read_line : %s\nLe nombre de caractère : %ld \n",len,commande,caractere);
     commande[caractere-1]='\0'; //commande[caractere],
-
+    Nbcaractere=caractere;
     return commande;
 }
 
 char** shell_split_line(char * line){ //separe la ligne recupere
     char *commande;
     char **splitCommande = malloc (sizeof(splitCommande)); //ici je pense
-    //size_t tailleCommande = mystrlen(line)+1;
     int i = 0;
     char *strToken = mystrtok(line);
     commande=strToken;
     while (strToken != NULL){
         //mystrcat(splitCommande,strToken);
-//        splitCommande = realloc(&*splitCommande,sizeof (splitCommande)*i);
+        splitCommande =(char **) realloc(splitCommande,(i+1)*sizeof (char*));
         splitCommande[i] = strToken;
-        //printf("Token = %s\n",strToken);
         strToken=mystrtok(NULL);
-        //printf("Le mot %d est : %s\n",i,splitCommande[i]);
         i++;
-        //printf ("il y a %d token\n",i);
     }
     NbArguments=i;
     //printf("la commande apres strtok est : %s\n",commande);
@@ -48,12 +45,8 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
     char *commande = chaineSplit[0];
     printf("La chaineSplit[0] dans shell_execute : |%s|\n",chaineSplit[0]);
     printf("La commande dans shell_execute : |%s|",commande);
-//    switch ((int) commande)
-//        case 'cd':
-//            printf("le cd est bon");
-//    if ((int) commande =="cd"){
-//        printf("le cd est bon");
-//    }
+
+    //commencement des commandes
     if (mystrcmp(commande,"cd")==0){
         printf("\nle cd est bon\n");
     }
@@ -69,22 +62,30 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
     else if (mystrcmp(commande,"md")==0){ //mkdir
         printf("\nle md/mkdir est bon\n");
     }
-    //printf("\nle mystrcmp : %d",mystrcmp(commande,"cd"));
+    else if (mystrcmp(commande,"help")==0){
+        printf("\nle help est bon\n");
+    }
+    else if (mystrcmp(commande,"exit")==0){
+        exit(0);
+    }
+    else{
+        printf ("\nCe que vous avez ecris n'est pas une commande\nConsultez la liste des commandes possible avec help");
+    }
 }
 
 
 
 void shell_loop(void){
     char *line;
-    line = malloc(sizeof(shell_read_line()));
+//    line = malloc(sizeof(shell_read_line()));
     char **chaineSplit;
-    chaineSplit = malloc (sizeof(shell_split_line(line)));
+//    chaineSplit = malloc (sizeof(shell_split_line(line)));
     int status;
     do {
         printf("\nEsiea_shell_> ");
         line = shell_read_line();
 //        line = realloc(&line,sizeof(shell_read_line()));
-        chaineSplit = realloc(&**chaineSplit,sizeof(shell_split_line(line))* NbArguments);
+//
         chaineSplit = shell_split_line(line); //separation commande et option
         printf("dans shell_loop chaineSplit[0] : %s\n",chaineSplit[0]);
         printf("printf dans shell_loop : %s\n",line);
