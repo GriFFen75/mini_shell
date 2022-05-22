@@ -90,10 +90,6 @@ void shell_loop(void){
         printf("dans shell_loop chaineSplit[0] : %s\n",chaineSplit[0]);
         printf("printf dans shell_loop : %s\n",line);
         status = shell_execute(chaineSplit);
-//        line = realloc(&line,sizeof (&line  NbArguments));
-//        chaineSplit = realloc(&chaineSplit,sizeof (shell_split_line(line)));
-//        free(line);
-//        free(chaineSplit);
     } while (status);
 }
 
