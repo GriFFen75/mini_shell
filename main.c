@@ -45,11 +45,9 @@ char** shell_split_line(char * line){ //separe la ligne recupere
 
 int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
     char *commande = chaineSplit[0];
-//    printf("La chaineSplit[0] dans shell_execute : |%s|\n",chaineSplit[0]);
-//    printf("La commande dans shell_execute : |%s|",commande);
 
     //commencement des commandes
-    if (mystrcmp(commande,"cd")==0){
+    if (mystrcmp(commande,"cd")==0){                //fini
         char S[255];
         const char * path = getenv( "PATH" );
         printf ("PATH environement variable == %s\n",path);
@@ -62,6 +60,7 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
         }
         getcwd(S,255);
         printf("Repertoire courant %s\n",S);
+        printf("%d\n",pathconf(path,1)); // permet de savoir la taille du char*
     }
     else if (mystrcmp(commande,"ls")==0){
         FILE * sortie = popen("ls","r");
@@ -70,13 +69,24 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
         }
         else{
 //            fprintf(sortie,"%p\n");
-            char *result;
-            fgets(result, 512, sortie);
-            printf("%s\n", result);
+//            char *result;
+//            fgets(result, 512, sortie);
+//            printf("%s\n", result);
         }
         pclose(sortie);
     }
-    else if (mystrcmp(commande,"echo")==0){//juste faire un printf de ce qu'il y a en parametre
+    else if (mystrcmp(commande,"rm")==0){           //fini
+        char * path = chaineSplit[1];
+        printf("Le path est %s",path);
+        rmdir(chaineSplit[1]); // si il reussi il ferme le prog jsp pk
+
+    }
+    else if (mystrcmp(commande,"rename")==0){           //fini
+        char *old = chaineSplit[1];
+        char *new = chaineSplit[2];
+        rename(old,new);
+    }
+    else if (mystrcmp(commande,"echo")==0){         //fini
         printf("\n");
         for (int i = 1 ; i < NbArguments ; i++){
             //printf("%s ",chaineSplit[i]);
@@ -91,24 +101,49 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
     }
     else if (mystrcmp(commande,"md")==0){ //mkdir
         printf("\nle md/mkdir est bon\n");
-
     }
     else if (mystrcmp(commande,"history")==0){
         printf("\nle history est bon\n");
     }
-    else if (mystrcmp(commande,"pwd")==0){
+    else if (mystrcmp(commande,"pwd")==0){          //fini
         const char * pathRepertoireCourant = getenv( "PWD" );
         printf("Le path du repertoire courant est : %s\n",pathRepertoireCourant);
     }
 
     else if (mystrcmp(commande,"help")==0){
-        printf("\nle help est bon\n");
+        if (mystrcmp(chaineSplit[1],"cd")==0){
+            printf(" - cd : \n(change directory) Change de repertoire\n");
+        }
+        else if (mystrcmp(chaineSplit[1],"echo")==0){
+            printf(" - echo : \nAffiche une ligne de texte mise en paramètre\n");
+        }
+        else if (mystrcmp(chaineSplit[1],"pwd")==0){
+            printf(" - pwd : \nAffiche le repertoire courant\n");
+        }
+        else if (mystrcmp(chaineSplit[1],"exit")==0){
+            printf(" - exit : \nStop le programme\n");
+        }
+        else if (mystrcmp(chaineSplit[1],"ls")==0){
+            printf(" - ls : \nListe le contenu du répertoire\n");
+        }
+        else if (mystrcmp(chaineSplit[1],"rm")==0){
+            printf(" - rm : \n(Remove Directory) Supprime le répertoire mit en paramètre\n");
+        }
+        else if (mystrcmp(chaineSplit[1],"rename")==0){
+            printf(" - rename : \nRennome le fichier du premier parametre en celui du deuxième\n");
+        }
+        else{
+            printf("\nLa commande %s n'existe pas\nConsultez la liste des commandes possible avec 'manuel'\n",chaineSplit[1]);
+        }
+    }
+    else if (mystrcmp(commande,"manuel")==0){
+        printf(" - cd\n - echo\n - pwd\n - exit\n - ls\n");
     }
     else if (mystrcmp(commande,"exit")==0){
         return EXIT_SUCCESS;
     }
     else{
-        printf ("\nCe que vous avez ecris n'est pas une commande\nConsultez la liste des commandes possible avec help");
+        printf ("\nCe que vous avez ecris n'est pas une commande\nConsultez la liste des commandes possible avec manuel");
     }
 }
 
