@@ -1,6 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
+#include <sys/types.h>
+#include <dirent.h>
+#include <sys/stat.h>
+#include <time.h>
 
 #include "mylib/mystring.h"
 //#include "mylib/mystring.c" //mettre celui la si on veut faire avec le terminal
@@ -59,8 +63,8 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
             chdir(chaineSplit[1]);
         }
         getcwd(S,255);
-        printf("Repertoire courant %s\n",S);
-        printf("%d\n",pathconf(path,1)); // permet de savoir la taille du char*
+        printf("\nRepertoire courant %s\n",S);
+        //printf("%d\n",pathconf(path,1)); // permet de savoir la taille du char*
     }
     else if (mystrcmp(commande,"ls")==0){
         FILE * sortie = popen("ls","r");
@@ -100,14 +104,17 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
         }
     }
     else if (mystrcmp(commande,"md")==0){ //mkdir
-        printf("\nle md/mkdir est bon\n");
+
     }
     else if (mystrcmp(commande,"history")==0){
         printf("\nle history est bon\n");
     }
     else if (mystrcmp(commande,"pwd")==0){          //fini
-        const char * pathRepertoireCourant = getenv( "PWD" );
-        printf("Le path du repertoire courant est : %s\n",pathRepertoireCourant);
+//        const char * pathRepertoireCourant = getenv( "PWD" ); //fonctionne pas , le path ne change pas
+//        printf("Le path du repertoire courant est : %s\n",pathRepertoireCourant);
+        char S[255];
+        getcwd(S,255);
+        printf("Repertoire courant %s\n",S);
     }
 
     else if (mystrcmp(commande,"help")==0){

@@ -60,6 +60,21 @@ CMakeFiles/untitled1.dir/main.c.o: ../main.c \
   /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
   /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
   /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
+  /usr/include/x86_64-linux-gnu/sys/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
   ../mylib/mystring.h
 
 CMakeFiles/untitled1.dir/mylib/mystring.c.o: ../mylib/mystring.c \
@@ -119,9 +134,27 @@ CMakeFiles/untitled1.dir/mylib/mystring.c.o: ../mylib/mystring.c \
 
 ../mylib/mystring.c:
 
+/usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/x86_64-linux-gnu/sys/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/dirent_ext.h:
+
 ../mylib/mystring.h:
 
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
 /usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
@@ -143,9 +176,15 @@ CMakeFiles/untitled1.dir/mylib/mystring.c.o: ../mylib/mystring.c \
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
 
+/usr/include/linux/limits.h:
+
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
+
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+
+/usr/include/x86_64-linux-gnu/bits/dirent.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
@@ -166,6 +205,8 @@ CMakeFiles/untitled1.dir/mylib/mystring.c.o: ../mylib/mystring.c \
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/x86_64-linux-gnu/bits/libc-header-start.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/stdc-predef.h:
 
@@ -209,6 +250,8 @@ CMakeFiles/untitled1.dir/mylib/mystring.c.o: ../mylib/mystring.c \
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
@@ -236,5 +279,7 @@ CMakeFiles/untitled1.dir/mylib/mystring.c.o: ../mylib/mystring.c \
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
+
+/usr/include/dirent.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
