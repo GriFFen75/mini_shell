@@ -76,7 +76,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/HLib.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/main.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mycd.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mycd.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myls.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myls.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mymkdir.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mymkdir.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mystring.c">

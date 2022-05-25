@@ -9,6 +9,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kali/CLionProjects/mini_shellG/main.c" "CMakeFiles/untitled1.dir/main.c.o" "gcc" "CMakeFiles/untitled1.dir/main.c.o.d"
+  "/home/kali/CLionProjects/mini_shellG/mylib/mycd.c" "CMakeFiles/untitled1.dir/mylib/mycd.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/mycd.c.o.d"
+  "/home/kali/CLionProjects/mini_shellG/mylib/myls.c" "CMakeFiles/untitled1.dir/mylib/myls.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/myls.c.o.d"
+  "/home/kali/CLionProjects/mini_shellG/mylib/mymkdir.c" "CMakeFiles/untitled1.dir/mylib/mymkdir.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/mymkdir.c.o.d"
   "/home/kali/CLionProjects/mini_shellG/mylib/mystring.c" "CMakeFiles/untitled1.dir/mylib/mystring.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/mystring.c.o.d"
   )
 

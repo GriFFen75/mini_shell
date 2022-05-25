@@ -153,6 +153,78 @@ main.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/main.c.s
 .PHONY : main.c.s
 
+mylib/mycd.o: mylib/mycd.c.o
+.PHONY : mylib/mycd.o
+
+# target to build an object file
+mylib/mycd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mycd.c.o
+.PHONY : mylib/mycd.c.o
+
+mylib/mycd.i: mylib/mycd.c.i
+.PHONY : mylib/mycd.i
+
+# target to preprocess a source file
+mylib/mycd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mycd.c.i
+.PHONY : mylib/mycd.c.i
+
+mylib/mycd.s: mylib/mycd.c.s
+.PHONY : mylib/mycd.s
+
+# target to generate assembly for a file
+mylib/mycd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mycd.c.s
+.PHONY : mylib/mycd.c.s
+
+mylib/myls.o: mylib/myls.c.o
+.PHONY : mylib/myls.o
+
+# target to build an object file
+mylib/myls.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myls.c.o
+.PHONY : mylib/myls.c.o
+
+mylib/myls.i: mylib/myls.c.i
+.PHONY : mylib/myls.i
+
+# target to preprocess a source file
+mylib/myls.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myls.c.i
+.PHONY : mylib/myls.c.i
+
+mylib/myls.s: mylib/myls.c.s
+.PHONY : mylib/myls.s
+
+# target to generate assembly for a file
+mylib/myls.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myls.c.s
+.PHONY : mylib/myls.c.s
+
+mylib/mymkdir.o: mylib/mymkdir.c.o
+.PHONY : mylib/mymkdir.o
+
+# target to build an object file
+mylib/mymkdir.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mymkdir.c.o
+.PHONY : mylib/mymkdir.c.o
+
+mylib/mymkdir.i: mylib/mymkdir.c.i
+.PHONY : mylib/mymkdir.i
+
+# target to preprocess a source file
+mylib/mymkdir.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mymkdir.c.i
+.PHONY : mylib/mymkdir.c.i
+
+mylib/mymkdir.s: mylib/mymkdir.c.s
+.PHONY : mylib/mymkdir.s
+
+# target to generate assembly for a file
+mylib/mymkdir.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mymkdir.c.s
+.PHONY : mylib/mymkdir.c.s
+
 mylib/mystring.o: mylib/mystring.c.o
 .PHONY : mylib/mystring.o
 
@@ -189,6 +261,15 @@ help:
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... mylib/mycd.o"
+	@echo "... mylib/mycd.i"
+	@echo "... mylib/mycd.s"
+	@echo "... mylib/myls.o"
+	@echo "... mylib/myls.i"
+	@echo "... mylib/myls.s"
+	@echo "... mylib/mymkdir.o"
+	@echo "... mylib/mymkdir.i"
+	@echo "... mylib/mymkdir.s"
 	@echo "... mylib/mystring.o"
 	@echo "... mylib/mystring.i"
 	@echo "... mylib/mystring.s"

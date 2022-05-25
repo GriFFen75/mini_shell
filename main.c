@@ -1,12 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <dirent.h>
-#include <sys/stat.h>
-#include <time.h>
+#include "HLib.h"
 
-#include "mylib/mystring.h"
 //#include "mylib/mystring.c" //mettre celui la si on veut faire avec le terminal
 
 
@@ -14,6 +7,8 @@
 
 int NbArguments;
 int Nbcaractere;
+
+void shell_loop(void);
 
 char * shell_read_line(){ //fonctione pour lire les ligne rentré
     char *commande ;
@@ -52,46 +47,16 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
 
     //commencement des commandes
     if (mystrcmp(commande,"cd")==0){                //fini
-        char S[255];
-        const char * path = getenv( "PATH" );
-        printf ("PATH environement variable == %s\n",path);
-        const char * home = getenv( "HOME" );
-        if (chaineSplit[1]==NULL){
-            chdir(home);
-        }
-        else{
-            chdir(chaineSplit[1]);
-        }
-        getcwd(S,255);
-        printf("\nRepertoire courant %s\n",S);
-        //printf("%d\n",pathconf(path,1)); // permet de savoir la taille du char*
+        mycd(chaineSplit[1]);
     }
     else if (mystrcmp(commande,"ls")==0){       //je sort a chaque foi
-        struct dirent *lecture;
-        DIR *rep;
-        if (chaineSplit[1]  == NULL){
-            char * path;
-            getwd(path);
-            rep = opendir(path);
-        }
-        else{
-            rep = opendir(chaineSplit[1]);
-        }
-        while (lecture = readdir(rep))
-        {
-            printf("%s\n", lecture->d_name);
-        }
-
-        closedir(rep);
-
-        //return 0;
+        myls(chaineSplit[1]);
     }
 
     else if (mystrcmp(commande,"rm")==0){           //
         char * path = chaineSplit[1];
         printf("Le path est %s",path);
         rmdir(chaineSplit[1]); // si il reussi il ferme le prog jsp pk
-
     }
     else if (mystrcmp(commande,"rename")==0){           //fini
         char *old = chaineSplit[1];
@@ -114,7 +79,6 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
     else if (mystrcmp(commande,"md")==0){ //je sort a chaque foi
         char * path = chaineSplit[1];
         mkdir(path,0755);
-
     }
     else if (mystrcmp(commande,"history")==0){
         printf("\nle history est bon\n");
