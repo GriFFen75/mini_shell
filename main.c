@@ -66,20 +66,28 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
         printf("\nRepertoire courant %s\n",S);
         //printf("%d\n",pathconf(path,1)); // permet de savoir la taille du char*
     }
-    else if (mystrcmp(commande,"ls")==0){
-        FILE * sortie = popen("ls","r");
-        if (sortie == NULL){
-            printf ("\nLa sortie est égale a nul\n");
+    else if (mystrcmp(commande,"ls")==0){       //je sort a chaque foi
+        struct dirent *lecture;
+        DIR *rep;
+        if (chaineSplit[1]  == NULL){
+            char * path;
+            getwd(path);
+            rep = opendir(path);
         }
         else{
-//            fprintf(sortie,"%p\n");
-//            char *result;
-//            fgets(result, 512, sortie);
-//            printf("%s\n", result);
+            rep = opendir(chaineSplit[1]);
         }
-        pclose(sortie);
+        while (lecture = readdir(rep))
+        {
+            printf("%s\n", lecture->d_name);
+        }
+
+        closedir(rep);
+
+        //return 0;
     }
-    else if (mystrcmp(commande,"rm")==0){           //fini
+
+    else if (mystrcmp(commande,"rm")==0){           //
         char * path = chaineSplit[1];
         printf("Le path est %s",path);
         rmdir(chaineSplit[1]); // si il reussi il ferme le prog jsp pk
@@ -103,7 +111,9 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
             }
         }
     }
-    else if (mystrcmp(commande,"md")==0){ //mkdir
+    else if (mystrcmp(commande,"md")==0){ //je sort a chaque foi
+        char * path = chaineSplit[1];
+        mkdir(path,0755);
 
     }
     else if (mystrcmp(commande,"history")==0){
@@ -139,12 +149,15 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
         else if (mystrcmp(chaineSplit[1],"rename")==0){
             printf(" - rename : \nRennome le fichier du premier parametre en celui du deuxième\n");
         }
+        else if (mystrcmp(chaineSplit[1],"md")==0){
+            printf(" - md : \n(Make directory) créer un répertoire d'ont le chemin est mis en paramètre \n");
+        }
         else{
             printf("\nLa commande %s n'existe pas\nConsultez la liste des commandes possible avec 'manuel'\n",chaineSplit[1]);
         }
     }
     else if (mystrcmp(commande,"manuel")==0){
-        printf(" - cd\n - echo\n - pwd\n - exit\n - ls\n");
+        printf(" - cd\n - echo\n - pwd\n - exit\n - ls\n - md\n - rm\n");
     }
     else if (mystrcmp(commande,"exit")==0){
         return EXIT_SUCCESS;
