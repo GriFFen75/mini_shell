@@ -8,6 +8,14 @@
 #include "mylib/mystring.h"
 #include "mylib/mycd.h"
 #include "mylib/myls.h"
+#include "mylib/myrmdir.h"
+#include "mylib/myrename.h"
+#include "mylib/myecho.h"
+#include "mylib/mymd.h"
+#include "mylib/mypwd.h"
+#include "mylib/myhelp.h"
+
+
 
 
 #include <stdio.h>

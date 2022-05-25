@@ -177,6 +177,54 @@ mylib/mycd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mycd.c.s
 .PHONY : mylib/mycd.c.s
 
+mylib/myecho.o: mylib/myecho.c.o
+.PHONY : mylib/myecho.o
+
+# target to build an object file
+mylib/myecho.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myecho.c.o
+.PHONY : mylib/myecho.c.o
+
+mylib/myecho.i: mylib/myecho.c.i
+.PHONY : mylib/myecho.i
+
+# target to preprocess a source file
+mylib/myecho.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myecho.c.i
+.PHONY : mylib/myecho.c.i
+
+mylib/myecho.s: mylib/myecho.c.s
+.PHONY : mylib/myecho.s
+
+# target to generate assembly for a file
+mylib/myecho.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myecho.c.s
+.PHONY : mylib/myecho.c.s
+
+mylib/myhelp.o: mylib/myhelp.c.o
+.PHONY : mylib/myhelp.o
+
+# target to build an object file
+mylib/myhelp.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myhelp.c.o
+.PHONY : mylib/myhelp.c.o
+
+mylib/myhelp.i: mylib/myhelp.c.i
+.PHONY : mylib/myhelp.i
+
+# target to preprocess a source file
+mylib/myhelp.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myhelp.c.i
+.PHONY : mylib/myhelp.c.i
+
+mylib/myhelp.s: mylib/myhelp.c.s
+.PHONY : mylib/myhelp.s
+
+# target to generate assembly for a file
+mylib/myhelp.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myhelp.c.s
+.PHONY : mylib/myhelp.c.s
+
 mylib/myls.o: mylib/myls.c.o
 .PHONY : mylib/myls.o
 
@@ -201,29 +249,101 @@ mylib/myls.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myls.c.s
 .PHONY : mylib/myls.c.s
 
-mylib/mymkdir.o: mylib/mymkdir.c.o
-.PHONY : mylib/mymkdir.o
+mylib/mymd.o: mylib/mymd.c.o
+.PHONY : mylib/mymd.o
 
 # target to build an object file
-mylib/mymkdir.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mymkdir.c.o
-.PHONY : mylib/mymkdir.c.o
+mylib/mymd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mymd.c.o
+.PHONY : mylib/mymd.c.o
 
-mylib/mymkdir.i: mylib/mymkdir.c.i
-.PHONY : mylib/mymkdir.i
+mylib/mymd.i: mylib/mymd.c.i
+.PHONY : mylib/mymd.i
 
 # target to preprocess a source file
-mylib/mymkdir.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mymkdir.c.i
-.PHONY : mylib/mymkdir.c.i
+mylib/mymd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mymd.c.i
+.PHONY : mylib/mymd.c.i
 
-mylib/mymkdir.s: mylib/mymkdir.c.s
-.PHONY : mylib/mymkdir.s
+mylib/mymd.s: mylib/mymd.c.s
+.PHONY : mylib/mymd.s
 
 # target to generate assembly for a file
-mylib/mymkdir.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mymkdir.c.s
-.PHONY : mylib/mymkdir.c.s
+mylib/mymd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mymd.c.s
+.PHONY : mylib/mymd.c.s
+
+mylib/mypwd.o: mylib/mypwd.c.o
+.PHONY : mylib/mypwd.o
+
+# target to build an object file
+mylib/mypwd.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mypwd.c.o
+.PHONY : mylib/mypwd.c.o
+
+mylib/mypwd.i: mylib/mypwd.c.i
+.PHONY : mylib/mypwd.i
+
+# target to preprocess a source file
+mylib/mypwd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mypwd.c.i
+.PHONY : mylib/mypwd.c.i
+
+mylib/mypwd.s: mylib/mypwd.c.s
+.PHONY : mylib/mypwd.s
+
+# target to generate assembly for a file
+mylib/mypwd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mypwd.c.s
+.PHONY : mylib/mypwd.c.s
+
+mylib/myrename.o: mylib/myrename.c.o
+.PHONY : mylib/myrename.o
+
+# target to build an object file
+mylib/myrename.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myrename.c.o
+.PHONY : mylib/myrename.c.o
+
+mylib/myrename.i: mylib/myrename.c.i
+.PHONY : mylib/myrename.i
+
+# target to preprocess a source file
+mylib/myrename.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myrename.c.i
+.PHONY : mylib/myrename.c.i
+
+mylib/myrename.s: mylib/myrename.c.s
+.PHONY : mylib/myrename.s
+
+# target to generate assembly for a file
+mylib/myrename.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myrename.c.s
+.PHONY : mylib/myrename.c.s
+
+mylib/myrmdir.o: mylib/myrmdir.c.o
+.PHONY : mylib/myrmdir.o
+
+# target to build an object file
+mylib/myrmdir.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myrmdir.c.o
+.PHONY : mylib/myrmdir.c.o
+
+mylib/myrmdir.i: mylib/myrmdir.c.i
+.PHONY : mylib/myrmdir.i
+
+# target to preprocess a source file
+mylib/myrmdir.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myrmdir.c.i
+.PHONY : mylib/myrmdir.c.i
+
+mylib/myrmdir.s: mylib/myrmdir.c.s
+.PHONY : mylib/myrmdir.s
+
+# target to generate assembly for a file
+mylib/myrmdir.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myrmdir.c.s
+.PHONY : mylib/myrmdir.c.s
 
 mylib/mystring.o: mylib/mystring.c.o
 .PHONY : mylib/mystring.o
@@ -264,12 +384,27 @@ help:
 	@echo "... mylib/mycd.o"
 	@echo "... mylib/mycd.i"
 	@echo "... mylib/mycd.s"
+	@echo "... mylib/myecho.o"
+	@echo "... mylib/myecho.i"
+	@echo "... mylib/myecho.s"
+	@echo "... mylib/myhelp.o"
+	@echo "... mylib/myhelp.i"
+	@echo "... mylib/myhelp.s"
 	@echo "... mylib/myls.o"
 	@echo "... mylib/myls.i"
 	@echo "... mylib/myls.s"
-	@echo "... mylib/mymkdir.o"
-	@echo "... mylib/mymkdir.i"
-	@echo "... mylib/mymkdir.s"
+	@echo "... mylib/mymd.o"
+	@echo "... mylib/mymd.i"
+	@echo "... mylib/mymd.s"
+	@echo "... mylib/mypwd.o"
+	@echo "... mylib/mypwd.i"
+	@echo "... mylib/mypwd.s"
+	@echo "... mylib/myrename.o"
+	@echo "... mylib/myrename.i"
+	@echo "... mylib/myrename.s"
+	@echo "... mylib/myrmdir.o"
+	@echo "... mylib/myrmdir.i"
+	@echo "... mylib/myrmdir.s"
 	@echo "... mylib/mystring.o"
 	@echo "... mylib/mystring.i"
 	@echo "... mylib/mystring.s"

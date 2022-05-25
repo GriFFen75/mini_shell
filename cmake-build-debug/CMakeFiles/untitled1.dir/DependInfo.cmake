@@ -10,8 +10,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kali/CLionProjects/mini_shellG/main.c" "CMakeFiles/untitled1.dir/main.c.o" "gcc" "CMakeFiles/untitled1.dir/main.c.o.d"
   "/home/kali/CLionProjects/mini_shellG/mylib/mycd.c" "CMakeFiles/untitled1.dir/mylib/mycd.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/mycd.c.o.d"
+  "/home/kali/CLionProjects/mini_shellG/mylib/myecho.c" "CMakeFiles/untitled1.dir/mylib/myecho.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/myecho.c.o.d"
+  "/home/kali/CLionProjects/mini_shellG/mylib/myhelp.c" "CMakeFiles/untitled1.dir/mylib/myhelp.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/myhelp.c.o.d"
   "/home/kali/CLionProjects/mini_shellG/mylib/myls.c" "CMakeFiles/untitled1.dir/mylib/myls.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/myls.c.o.d"
-  "/home/kali/CLionProjects/mini_shellG/mylib/mymkdir.c" "CMakeFiles/untitled1.dir/mylib/mymkdir.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/mymkdir.c.o.d"
+  "/home/kali/CLionProjects/mini_shellG/mylib/mymd.c" "CMakeFiles/untitled1.dir/mylib/mymd.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/mymd.c.o.d"
+  "/home/kali/CLionProjects/mini_shellG/mylib/mypwd.c" "CMakeFiles/untitled1.dir/mylib/mypwd.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/mypwd.c.o.d"
+  "/home/kali/CLionProjects/mini_shellG/mylib/myrename.c" "CMakeFiles/untitled1.dir/mylib/myrename.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/myrename.c.o.d"
+  "/home/kali/CLionProjects/mini_shellG/mylib/myrmdir.c" "CMakeFiles/untitled1.dir/mylib/myrmdir.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/myrmdir.c.o.d"
   "/home/kali/CLionProjects/mini_shellG/mylib/mystring.c" "CMakeFiles/untitled1.dir/mylib/mystring.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/mystring.c.o.d"
   )
 

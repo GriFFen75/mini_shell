@@ -88,16 +88,46 @@
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mycd.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myecho.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myecho.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myhelp.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myhelp.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myls.c">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myls.h">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mymkdir.c">
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mymd.c">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mymkdir.h">
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mymd.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mypwd.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mypwd.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myrename.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myrename.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myrmdir.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myrmdir.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mystring.c">
