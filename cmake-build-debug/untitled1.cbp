@@ -100,6 +100,12 @@
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myhelp.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myhistory.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myhistory.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myls.c">
 			<Option target="untitled1"/>
 		</Unit>

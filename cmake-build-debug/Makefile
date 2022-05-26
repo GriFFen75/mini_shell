@@ -225,6 +225,30 @@ mylib/myhelp.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myhelp.c.s
 .PHONY : mylib/myhelp.c.s
 
+mylib/myhistory.o: mylib/myhistory.c.o
+.PHONY : mylib/myhistory.o
+
+# target to build an object file
+mylib/myhistory.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myhistory.c.o
+.PHONY : mylib/myhistory.c.o
+
+mylib/myhistory.i: mylib/myhistory.c.i
+.PHONY : mylib/myhistory.i
+
+# target to preprocess a source file
+mylib/myhistory.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myhistory.c.i
+.PHONY : mylib/myhistory.c.i
+
+mylib/myhistory.s: mylib/myhistory.c.s
+.PHONY : mylib/myhistory.s
+
+# target to generate assembly for a file
+mylib/myhistory.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myhistory.c.s
+.PHONY : mylib/myhistory.c.s
+
 mylib/myls.o: mylib/myls.c.o
 .PHONY : mylib/myls.o
 
@@ -414,6 +438,9 @@ help:
 	@echo "... mylib/myhelp.o"
 	@echo "... mylib/myhelp.i"
 	@echo "... mylib/myhelp.s"
+	@echo "... mylib/myhistory.o"
+	@echo "... mylib/myhistory.i"
+	@echo "... mylib/myhistory.s"
 	@echo "... mylib/myls.o"
 	@echo "... mylib/myls.i"
 	@echo "... mylib/myls.s"

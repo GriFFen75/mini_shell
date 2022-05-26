@@ -15,6 +15,7 @@
 #include "mylib/mypwd.h"
 #include "mylib/myhelp.h"
 #include "mylib//mytouch.h"
+#include "mylib/myhistory.h"
 
 
 

@@ -37,6 +37,9 @@ void myhelp(char * chaineSplit){
     else if (mystrcmp(chaineSplit,"touch")==0){
         printf(" - touch : \nCréer un fichier à l'emplacement mit en paramètre. Si il n'y a pas d'emplacement il est créé dans le répertoire courant\n");
     }
+    else if (mystrcmp(chaineSplit,"history")==0){
+        printf(" - history : \nAffiche le nombre de commande mise en paramètre. Si il n'y a rien en paramètre, affiche les 10 dernières commandes\n");
+    }
     else{
         printf("\nLa commande %s n'existe pas\nConsultez la liste des commandes possible avec 'manuel'\n",chaineSplit[1]);
     }
