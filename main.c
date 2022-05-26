@@ -39,7 +39,7 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
     char *commande = chaineSplit[0];
 
     //commencement des commandes
-    if (mystrcmp(commande,"cd")==0){                //fini
+    if (mystrcmp(commande,"cd")==0){
         mycd(chaineSplit[1]);
     }
     else if (mystrcmp(commande,"ls")==0){       //fini mais je sort a chaque foi
