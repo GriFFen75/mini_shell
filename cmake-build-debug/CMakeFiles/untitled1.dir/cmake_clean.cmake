@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/mylib/myrmdir.c.o.d"
   "CMakeFiles/untitled1.dir/mylib/mystring.c.o"
   "CMakeFiles/untitled1.dir/mylib/mystring.c.o.d"
+  "CMakeFiles/untitled1.dir/mylib/mytouch.c.o"
+  "CMakeFiles/untitled1.dir/mylib/mytouch.c.o.d"
   "untitled1"
   "untitled1.pdb"
 )

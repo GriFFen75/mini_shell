@@ -1,26 +1,19 @@
 #include "HLib.h"
 
-//#include "mylib/mystring.c" //mettre celui la si on veut faire avec le terminal
-
-
 //la foncione pipe et fork peuvent etre utile .
 
 int NbArguments;
 //int Nbcaractere;
 
-void shell_loop(void);
 
 char * shell_read_line(){ //fonctione pour lire les ligne rentré
     char *commande ;
-    size_t len = mystrlen(commande);
+    size_t len;
     size_t caractere;
     commande = (char *) malloc( len * sizeof(char));
-
     caractere = getline(&commande,&len,stdin);
-
-//    printf("Len : %zu\nprint dans shell_read_line : %s\nLe nombre de caractère : %ld \n",len,commande,caractere);
-    commande[caractere-1]='\0'; //commande[caractere],
-//    Nbcaractere=caractere;
+    len = mystrlen(commande);
+    commande[caractere-1]='\0';
     return commande;
 }
 
@@ -52,7 +45,6 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
     else if (mystrcmp(commande,"ls")==0){       //fini mais je sort a chaque foi
         myls(chaineSplit[1]);
     }
-
     else if (mystrcmp(commande,"rm")==0){
         myrmdir(chaineSplit[1]);
     }
@@ -68,14 +60,17 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
     else if (mystrcmp(commande,"history")==0){
         printf("\nle history est bon\n");
     }
-    else if (mystrcmp(commande,"pwd")==0){          //fini
+    else if (mystrcmp(commande,"pwd")==0){
         mypwd();
+    }
+    else if (mystrcmp(commande,"touch")==0){
+        mytouch(chaineSplit[1]);
     }
     else if (mystrcmp(commande,"help")==0){
         myhelp(chaineSplit[1]);
     }
     else if (mystrcmp(commande,"manuel")==0){
-        printf(" - cd\n - echo\n - pwd\n - exit\n - ls\n - md\n - rm\n - help\n - ren\n - help\n");
+        printf(" - cd\n - echo\n - pwd\n - exit\n - ls\n - md\n - rm\n - help\n - ren\n - help\n - touch\n");
     }
     else if (mystrcmp(commande,"exit")==0){
         return EXIT_SUCCESS;
@@ -89,15 +84,11 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
 
 void shell_loop(void){
     char *line;
-//    line = malloc(sizeof(shell_read_line()));
     char **chaineSplit;
-//    chaineSplit = malloc (sizeof(shell_split_line(line)));
     int status;
     do {
         printf("\nEsiea_shell_> ");
         line = shell_read_line();
-//        line = realloc(&line,sizeof(shell_read_line()));
-//
         chaineSplit = shell_split_line(line); //separation commande et option
 //        printf("dans shell_loop chaineSplit[0] : %s\n",chaineSplit[0]);
 //        printf("printf dans shell_loop : %s\n",line);

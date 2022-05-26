@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kali/CLionProjects/mini_shellG/mylib/myrename.c" "CMakeFiles/untitled1.dir/mylib/myrename.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/myrename.c.o.d"
   "/home/kali/CLionProjects/mini_shellG/mylib/myrmdir.c" "CMakeFiles/untitled1.dir/mylib/myrmdir.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/myrmdir.c.o.d"
   "/home/kali/CLionProjects/mini_shellG/mylib/mystring.c" "CMakeFiles/untitled1.dir/mylib/mystring.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/mystring.c.o.d"
+  "/home/kali/CLionProjects/mini_shellG/mylib/mytouch.c" "CMakeFiles/untitled1.dir/mylib/mytouch.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/mytouch.c.o.d"
   )
 
 # Targets to which this target links.

@@ -29,10 +29,13 @@ void myhelp(char * chaineSplit){
         printf(" - ren : \nRennome le fichier du premier parametre en celui du deuxième\n");
     }
     else if (mystrcmp(chaineSplit,"md")==0){
-        printf(" - md : \n(Make directory) créer un répertoire d'ont le chemin est mis en paramètre \n");
+        printf(" - md : \n(Make directory) Créer un répertoire d'ont le chemin est mis en paramètre \n");
     }
     else if (mystrcmp(chaineSplit,"help")==0){
-        printf(" - help <nom de la commande> : \npermet d'avoir des informations sur celle-ci\n");
+        printf(" - help <nom de la commande> : \nPermet d'avoir des informations sur celle-ci\n");
+    }
+    else if (mystrcmp(chaineSplit,"touch")==0){
+        printf(" - touch : \nCréer un fichier à l'emplacement mit en paramètre. Si il n'y a pas d'emplacement il est créé dans le répertoire courant\n");
     }
     else{
         printf("\nLa commande %s n'existe pas\nConsultez la liste des commandes possible avec 'manuel'\n",chaineSplit[1]);

@@ -369,6 +369,30 @@ mylib/mystring.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mystring.c.s
 .PHONY : mylib/mystring.c.s
 
+mylib/mytouch.o: mylib/mytouch.c.o
+.PHONY : mylib/mytouch.o
+
+# target to build an object file
+mylib/mytouch.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mytouch.c.o
+.PHONY : mylib/mytouch.c.o
+
+mylib/mytouch.i: mylib/mytouch.c.i
+.PHONY : mylib/mytouch.i
+
+# target to preprocess a source file
+mylib/mytouch.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mytouch.c.i
+.PHONY : mylib/mytouch.c.i
+
+mylib/mytouch.s: mylib/mytouch.c.s
+.PHONY : mylib/mytouch.s
+
+# target to generate assembly for a file
+mylib/mytouch.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mytouch.c.s
+.PHONY : mylib/mytouch.c.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -408,6 +432,9 @@ help:
 	@echo "... mylib/mystring.o"
 	@echo "... mylib/mystring.i"
 	@echo "... mylib/mystring.s"
+	@echo "... mylib/mytouch.o"
+	@echo "... mylib/mytouch.i"
+	@echo "... mylib/mytouch.s"
 .PHONY : help
 
 
