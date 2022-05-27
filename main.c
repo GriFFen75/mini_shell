@@ -35,7 +35,7 @@ char** shell_split_line(char * line){ //separe la ligne recupere
     return (splitCommande);
 }
 
-int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
+int shell_execute(char** chaineSplit){
     char *commande = chaineSplit[0];
 
     //commencement des commandes
@@ -51,14 +51,14 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
     else if (mystrcmp(commande,"ren")==0){           //fini mais sort du prog a chaque foi
         myrename(chaineSplit[1],chaineSplit[2]);
     }
-    else if (mystrcmp(commande,"echo")==0){         //fini mais sort aussi
+    else if (mystrcmp(commande,"echo")==0){
         myecho(chaineSplit,NbArguments);
     }
     else if (mystrcmp(commande,"md")==0){ //je sort a chaque foi
         mymd(chaineSplit[1]);
     }
     else if (mystrcmp(commande,"history")==0){
-        printf("\nle history est bon\n");
+        myhistory(2);
     }
     else if (mystrcmp(commande,"pwd")==0){
         mypwd();
@@ -76,7 +76,7 @@ int shell_execute(char** chaineSplit){ // faire la fonction stpcmp()
         return EXIT_SUCCESS;
     }
     else{
-        printf ("\nCe que vous avez ecris n'est pas une commande\nConsultez la liste des commandes possible avec manuel");
+        printf ("\nCe que vous avez ecris n'est pas une commande\nConsultez la liste des commandes possible avec 'manuel'");
     }
 }
 
@@ -87,7 +87,7 @@ void shell_loop(void){
     char **chaineSplit;
     int status;
     do {
-        printf("\nEsiea_shell_> ");
+        printf("\nGriFFen_Shell> ");
         line = shell_read_line();
         chaineSplit = shell_split_line(line); //separation commande et option
 //        printf("dans shell_loop chaineSplit[0] : %s\n",chaineSplit[0]);

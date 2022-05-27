@@ -1,0 +1,146 @@
+
+--help
+sudo apt update 
+sudo apt upgrade
+sudo aireplay-ng -0 -e Bbox-8E6867D8 -a 
+aireplay-ng --help
+sudo aircrack-ng.cap
+sudo apt install discord
+setxbmap fr
+sudo apt install setxbmap 
+setxkbmap fr
+cd /opt
+ls
+cd clion-2022.1.1/bin
+ls
+./clion.sh
+cd /otp/clion-2022.1.1/bin
+cd /otp
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+ls
+sudo tar xfz /tmp/mozilla_kali0/CLion-2022.1.1.tar.gz -C /opt
+cd /opt
+ls
+cd clion-2022.1.1
+ls
+/bin
+./clion.sh
+ls
+cd /opt
+cd clion-2022.1.1
+cd bin
+cd /opt
+cd /opt/clion-2022.1.1/bin
+./
+./clion.sh
+sudo apt install gcc
+sudo apt update
+sudo apt upgrade
+setxkbmap fr
+cd /opt/clion-2022.1.1/
+cd bin 
+ls
+./clion.sh
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+ls
+./clion.sh
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+gcc main.c -o 1milion
+gcc main.c -o mil
+./mil
+gcc main.c -o 10
+gcc main.c -o 16_700_000
+./16_700_000
+setxkbmap fr
+.//opt/clion-2022.1.1/bin/clion.sh
+./opt/clion-2022.1.1/bin/clion.sh
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+gcc main.c -o test
+./test
+gcc main.c -o test2
+./test
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+history 10
+gcc main.c -o test3
+./test3
+pwd
+PWD
+man pd
+man pwd
+env
+login 
+user
+username
+date
+pipe
+pip
+ls -la
+echo %DATE
+echo DATE
+ntpdate
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+arg
+azg azrg
+man echo
+man exit
+man ls
+atom &
+arp
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+steghide embed -cf wallpaperbetter.com_7680x4320.jpg -ef text\
+
+gcc main.c -o test3
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+ipconfig
+ipconfigifocnfig
+ip a
+cd /home/kali/Desktop
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+echo $HOME
