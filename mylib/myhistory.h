@@ -5,6 +5,6 @@
 #ifndef UNTITLED1_MYHISTORY_H
 #define UNTITLED1_MYHISTORY_H
 
-void myhistory(int NbCommande);
+void myhistory(char * NbCommandeChar);
 
 #endif //UNTITLED1_MYHISTORY_H

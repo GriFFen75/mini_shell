@@ -57,8 +57,8 @@ int shell_execute(char** chaineSplit){
     else if (mystrcmp(commande,"md")==0){ //je sort a chaque foi
         mymd(chaineSplit[1]);
     }
-    else if (mystrcmp(commande,"history")==0){
-        myhistory(2);
+    else if (mystrcmp(commande,"history")==0){ //changer le path du history quand on aura fini //toujours le meme probleme mon prog sort
+        myhistory(chaineSplit[1]);
     }
     else if (mystrcmp(commande,"pwd")==0){
         mypwd();
