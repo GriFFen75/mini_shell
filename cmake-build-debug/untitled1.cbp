@@ -88,6 +88,12 @@
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mycd.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mydate.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mydate.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myecho.c">
 			<Option target="untitled1"/>
 		</Unit>
@@ -140,6 +146,12 @@
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mystring.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mytime.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mytime.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mytouch.c">

@@ -40,6 +40,12 @@ void myhelp(char * chaineSplit){
     else if (mystrcmp(chaineSplit,"history")==0){
         printf(" - history : \nAffiche le nombre de commande mise en paramètre. Si il n'y a rien en paramètre, affiche les 10 dernières commandes\n");
     }
+    else if (mystrcmp(chaineSplit,"date")==0){
+        printf(" - date : \nAffiche la date\n");
+    }
+    else if (mystrcmp(chaineSplit,"time")==0){
+        printf(" - date : \nAffiche l'heure\n");
+    }
     else{
         printf("\nLa commande %s n'existe pas\nConsultez la liste des commandes possible avec 'manuel'\n",chaineSplit[1]);
     }

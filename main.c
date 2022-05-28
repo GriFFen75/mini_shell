@@ -66,11 +66,17 @@ int shell_execute(char** chaineSplit){
     else if (mystrcmp(commande,"touch")==0){
         mytouch(chaineSplit[1]);
     }
+    else if (mystrcmp(commande,"date")==0){
+        mydate();
+    }
+    else if (mystrcmp(commande,"time")==0){
+        mytime();
+    }
     else if (mystrcmp(commande,"help")==0){
         myhelp(chaineSplit[1]);
     }
     else if (mystrcmp(commande,"manuel")==0){
-        printf(" - cd\n - echo\n - pwd\n - exit\n - ls\n - md\n - rm\n - help\n - ren\n - help\n - touch\n - history\n");
+        printf(" - cd\n - echo\n - pwd\n - exit\n - ls\n - md\n - rm\n - help\n - ren\n - help\n - touch\n - history\n - date\n");
     }
     else if (mystrcmp(commande,"exit")==0){
         return EXIT_SUCCESS;

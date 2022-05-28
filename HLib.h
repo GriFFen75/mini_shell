@@ -16,7 +16,8 @@
 #include "mylib/myhelp.h"
 #include "mylib//mytouch.h"
 #include "mylib/myhistory.h"
-
+#include "mylib/mydate.h"
+#include "mylib/mytime.h"
 
 
 

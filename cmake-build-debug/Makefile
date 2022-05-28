@@ -177,6 +177,30 @@ mylib/mycd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mycd.c.s
 .PHONY : mylib/mycd.c.s
 
+mylib/mydate.o: mylib/mydate.c.o
+.PHONY : mylib/mydate.o
+
+# target to build an object file
+mylib/mydate.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mydate.c.o
+.PHONY : mylib/mydate.c.o
+
+mylib/mydate.i: mylib/mydate.c.i
+.PHONY : mylib/mydate.i
+
+# target to preprocess a source file
+mylib/mydate.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mydate.c.i
+.PHONY : mylib/mydate.c.i
+
+mylib/mydate.s: mylib/mydate.c.s
+.PHONY : mylib/mydate.s
+
+# target to generate assembly for a file
+mylib/mydate.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mydate.c.s
+.PHONY : mylib/mydate.c.s
+
 mylib/myecho.o: mylib/myecho.c.o
 .PHONY : mylib/myecho.o
 
@@ -393,6 +417,30 @@ mylib/mystring.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mystring.c.s
 .PHONY : mylib/mystring.c.s
 
+mylib/mytime.o: mylib/mytime.c.o
+.PHONY : mylib/mytime.o
+
+# target to build an object file
+mylib/mytime.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mytime.c.o
+.PHONY : mylib/mytime.c.o
+
+mylib/mytime.i: mylib/mytime.c.i
+.PHONY : mylib/mytime.i
+
+# target to preprocess a source file
+mylib/mytime.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mytime.c.i
+.PHONY : mylib/mytime.c.i
+
+mylib/mytime.s: mylib/mytime.c.s
+.PHONY : mylib/mytime.s
+
+# target to generate assembly for a file
+mylib/mytime.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mytime.c.s
+.PHONY : mylib/mytime.c.s
+
 mylib/mytouch.o: mylib/mytouch.c.o
 .PHONY : mylib/mytouch.o
 
@@ -432,6 +480,9 @@ help:
 	@echo "... mylib/mycd.o"
 	@echo "... mylib/mycd.i"
 	@echo "... mylib/mycd.s"
+	@echo "... mylib/mydate.o"
+	@echo "... mylib/mydate.i"
+	@echo "... mylib/mydate.s"
 	@echo "... mylib/myecho.o"
 	@echo "... mylib/myecho.i"
 	@echo "... mylib/myecho.s"
@@ -459,6 +510,9 @@ help:
 	@echo "... mylib/mystring.o"
 	@echo "... mylib/mystring.i"
 	@echo "... mylib/mystring.s"
+	@echo "... mylib/mytime.o"
+	@echo "... mylib/mytime.i"
+	@echo "... mylib/mytime.s"
 	@echo "... mylib/mytouch.o"
 	@echo "... mylib/mytouch.i"
 	@echo "... mylib/mytouch.s"
