@@ -128,33 +128,13 @@ char * mystrstr(char *string, char *substring){
     return NULL;
 }
 
-int mystrmy(const char *s1 , const char *s2){
-    if ( s2 == NULL ){
-        printf("Il manque au moins un paramètre");
-    }
-    else{
-        int i;
-        int result;
-        //printf("le chaine 1 : %s\nLa chaine 2 : %s",s1,s2);
-        for ( i = 0 ; i < mystrlen(s2);i++){
-            for (int j = 0; j < mystrlen(s1); j++) {
-                if (s1[j] == s2[i]){
-                    //printf("caractère trouvé %c | %c\n",s1[j],s2[i]); //si j==mystrlen(s2) alors le mot a été trouver entierrement
-                }
-            }
-
-        }
-        if (i == mystrlen(s2)){
-            printf("\nLe i = %d\nLe mystrlen(s2) = %d",i, mystrlen(s2));
-            result=0;
-            return result;
-        }
-        else{
-            printf("\nLe i = %d\nLe mystrlen(s2) = %d",i, mystrlen(s2));
-            result=1;
-            return result;
+int mystrNbLineFile(FILE * Fichier){ //renvoie le nombre de ligne d'un fichier
+    char caractereFor;
+    int NbLigne = 0;
+    for (int k = 0;(caractereFor = getc(Fichier)) != EOF; ++k) { //pour calculer le nombre de ligne max
+        if (caractereFor == '\n') {
+            NbLigne++;
         }
     }
-
+    return NbLigne;
 }
-

@@ -27,15 +27,14 @@ void myhistory(char * NbCommandeChar){
             return;
         }
         char caractère;
-        char caractereFor;
-        int NbLigne = 0;
+//        char caractereFor;
+        int NbLigne = mystrNbLineFile(FichierHistoryCalculLine);
         int j = 0;
-        for (int k = 0;
-             (caractereFor = getc(FichierHistoryCalculLine)) != EOF; ++k) { //pour calculer le nombre de ligne max
-            if (caractereFor == '\n') {
-                NbLigne++;
-            }
-        }
+//        for (int k = 0;(caractereFor = getc(FichierHistoryCalculLine)) != EOF; ++k) { //pour calculer le nombre de ligne max
+//            if (caractereFor == '\n') {
+//                NbLigne++;
+//            }
+//        }
         printf("le nombre de ligne : %d\n", NbLigne);
         fclose(FichierHistoryCalculLine); // on close puis reouvre le fichier pour recommencer a 0
 
@@ -101,8 +100,7 @@ void myhistory(char * NbCommandeChar){
             }
             if (j >= NbLigne - NbCommande && j < NbLigne) {
                 putc(caractère, FichierStokage);
-//                    printf ("\nle j = %d\n",j);
-
+                printf ("%c",caractère);
             }
         }
         fclose(FichierHistory);
@@ -146,8 +144,7 @@ void myhistory(char * NbCommandeChar){
             }
             if (j >= NbLigne - NbCommande && j < NbLigne) {
                 putc(caractère, FichierStokage);
-//                    printf ("\nle j = %d\n",j);
-
+                printf ("%c",caractère);
             }
         }
         fclose(FichierHistory);
@@ -184,6 +181,7 @@ void myhistory(char * NbCommandeChar){
             }
             if (j >= NbLigne - NbCommande && j < NbLigne) {
                 putc(caractère, FichierStokage);
+                printf ("%c",caractère);
             }
         }
         fclose(FichierHistory);
