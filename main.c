@@ -45,7 +45,7 @@ int shell_execute(char** chaineSplit){
     else if (mystrcmp(commande,"ls")==0){       //fini mais je sort a chaque foi
         myls(chaineSplit[1]);
     }
-    else if (mystrcmp(commande,"rm")==0){
+    else if (mystrcmp(commande,"rm")==0){       //le prog sort
         myrmdir(chaineSplit[1]);
     }
     else if (mystrcmp(commande,"ren")==0){           //fini mais sort du prog a chaque foi
@@ -63,7 +63,7 @@ int shell_execute(char** chaineSplit){
     else if (mystrcmp(commande,"pwd")==0){
         mypwd();
     }
-    else if (mystrcmp(commande,"touch")==0){
+    else if (mystrcmp(commande,"touch")==0){ //le prog sort
         mytouch(chaineSplit[1]);
     }
     else if (mystrcmp(commande,"date")==0){
@@ -74,6 +74,9 @@ int shell_execute(char** chaineSplit){
     }
     else if (mystrcmp(commande,"help")==0){
         myhelp(chaineSplit[1]);
+    }
+    else if (mystrcmp(commande,"try")==0){
+        mystrstr("coucou comment ca va","comment");
     }
     else if (mystrcmp(commande,"manuel")==0){
         printf(" - cd\n - echo\n - pwd\n - exit\n - ls\n - md\n - rm\n - help\n - ren\n - help\n - touch\n - history\n - date\n");

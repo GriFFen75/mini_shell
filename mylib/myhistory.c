@@ -9,6 +9,10 @@
 void myhistory(char * NbCommandeChar){
     int NbCommande = strtol(NbCommandeChar,NULL , 10); //commande pour tranformer min char * en int
     printf("\nLe NbCommande : %d\n",NbCommande);
+
+    const char * shell = getenv( "SHELL" );
+
+
     FILE *FichierHistoryCalculLine = fopen("/home/kali/.zsh_history","r"); //changer ce path là
     if (FichierHistoryCalculLine == NULL){
         printf("\nle fichier n'a pas été trouvé\n");

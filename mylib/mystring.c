@@ -98,3 +98,28 @@ int mystrcmp(const char *s1, const char *s2){ // pour comparer 2 chaines (renvoi
     return ret;
 }
 
+int mystrstr(const char *s1 , const char *s2){
+//    char * c = s2 ;
+//    c = c+1;
+//    if (c!=NULL){
+//        return s1;
+//    }
+//    int len = mystrlen(s2);
+//
+    if ( s2 == NULL ){
+        printf("Il manque au moins un paramètre");
+    }
+    else{
+        //printf("le chaine 1 : %s\nLa chaine 2 : %s",s1,s2);
+        for (int i = 0 ; i < mystrlen(s2);i++){
+            for (int j = 0; j < mystrlen(s1); j++) {
+                if (s1[j] == s2[i]){
+                    printf("caractère trouvé %c | %c\n",s1[j],s2[i]); //si j==mystrlen(s2) alors le mot a été trouver entierrement
+                }
+            }
+
+        }
+    }
+
+}
+

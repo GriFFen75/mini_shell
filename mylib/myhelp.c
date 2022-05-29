@@ -44,7 +44,7 @@ void myhelp(char * chaineSplit){
         printf(" - date : \nAffiche la date\n");
     }
     else if (mystrcmp(chaineSplit,"time")==0){
-        printf(" - date : \nAffiche l'heure\n");
+        printf(" - time : \nAffiche l'heure\n");
     }
     else{
         printf("\nLa commande %s n'existe pas\nConsultez la liste des commandes possible avec 'manuel'\n",chaineSplit[1]);
