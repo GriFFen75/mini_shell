@@ -76,7 +76,12 @@ int shell_execute(char** chaineSplit){
         myhelp(chaineSplit[1]);
     }
     else if (mystrcmp(commande,"try")==0){
-        mystrstr("coucou comment ca va","comment");
+        if (mystrstr("coucou comment ca va","comment")!=NULL){
+            printf("\nla chaine a été trouvé");
+        }
+        else{
+            printf("\nla chaine n'a pas été trouvé");
+        }
     }
     else if (mystrcmp(commande,"manuel")==0){
         printf(" - cd\n - echo\n - pwd\n - exit\n - ls\n - md\n - rm\n - help\n - ren\n - help\n - touch\n - history\n - date\n");
@@ -111,6 +116,6 @@ int main(int argc, char **argv){
     printf("Mini SHELL - exit pour Quitter \n");
     // Run command loop.
     shell_loop();
-    printf("\nFin du Mini SHELL \n");
+    printf("\n\nFin du Mini SHELL \n");
     return EXIT_SUCCESS;
 }

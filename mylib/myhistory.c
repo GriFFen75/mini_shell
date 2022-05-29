@@ -7,51 +7,189 @@
 #include "myhistory.h"
 
 void myhistory(char * NbCommandeChar){
-    int NbCommande = strtol(NbCommandeChar,NULL , 10); //commande pour tranformer min char * en int
-    printf("\nLe NbCommande : %d\n",NbCommande);
-
-    const char * shell = getenv( "SHELL" );
-
-
-    FILE *FichierHistoryCalculLine = fopen("/home/kali/.zsh_history","r"); //changer ce path là
-    if (FichierHistoryCalculLine == NULL){
-        printf("\nle fichier n'a pas été trouvé\n");
+    int NbCommande;
+    if (NbCommandeChar == NULL){
+        NbCommande= 10;
     }
     else{
+        NbCommande = strtol(NbCommandeChar,NULL , 10); //commande pour tranformer min char * en int
+    }
+    printf("\nLe NbCommande : %d\n",NbCommande);
 
-        char caractère ;
+    char * shell = getenv( "SHELL");
+    register char * home = getenv("HOME");
+
+    if (mystrstr(shell,"/zsh")) { //on regarde quel shell on a pour pouvoir travailler en fonction  //j'aurais pu faire juste un open de
+        char * pathHistory= mystrcat(home,"/.zsh_history"); //concatenation du path pour le fopen
+        FILE *FichierHistoryCalculLine = fopen(pathHistory, "r"); //changer ce path là
+        if (FichierHistoryCalculLine == NULL) {
+            printf("\nle fichier n'a pas été trouvé\n");
+            return;
+        }
+        char caractère;
         char caractereFor;
         int NbLigne = 0;
-        int j = 0 ;
-        for (int k = 0; (caractereFor = getc(FichierHistoryCalculLine)) != EOF ; ++k) { //pour calculer le nombre de ligne max
-            if (caractereFor == '\n'){
+        int j = 0;
+        for (int k = 0;
+             (caractereFor = getc(FichierHistoryCalculLine)) != EOF; ++k) { //pour calculer le nombre de ligne max
+            if (caractereFor == '\n') {
                 NbLigne++;
             }
         }
-        printf("le nombre de ligne : %d\n",NbLigne);
+        printf("le nombre de ligne : %d\n", NbLigne);
         fclose(FichierHistoryCalculLine); // on close puis reouvre le fichier pour recommencer a 0
 
 
-        FILE *FichierHistory = fopen("/home/kali/.zsh_history","r");
-
-        FILE *FichierStokage = fopen("/home/kali/CLionProjects/mini_shellG/.historyCommande.txt","w");
-        if (FichierStokage == NULL){
-            printf("\nle fichier n'a pas été trouvé\n");
-        }
-        else{
-            while((caractère = getc(FichierHistory)) != EOF){
+        FILE *FichierHistory = fopen(pathHistory, "r");
+        char * pathStokage = "../.historyCommandeZSH.txt"; //le place dans le dossier mini_shell
+        printf("\nLe fichier sera dans : %s\n",pathStokage);
+        FILE *FichierStokage = fopen(pathStokage, "w");
+//        if (FichierStokage == NULL) {
+//            printf("\nle fichier n'a pas été trouvé\nCréation du fichier dans le dossier du projet\n");
+//            mytouch(pathStokage);
+//            fclose(FichierStokage);
+//            FILE *FichierStokage = fopen(pathStokage, "w");
+//        }
+            while ((caractère = getc(FichierHistory)) != EOF) {
                 //putc(caractère, FichierStokage);
-                if (caractère == '\n'){
+                if (caractère == '\n') {
                     j++;
                 }
-                if (j>=NbLigne-NbCommande && j<NbLigne){
+                if (j >= NbLigne - NbCommande && j < NbLigne) {
                     putc(caractère, FichierStokage);
-//                    printf ("\nle j = %d\n",j);
-
+                    printf ("%c",caractère);
                 }
             }
             fclose(FichierHistory);
             fclose(FichierStokage);
+    }
+    else if (mystrstr(shell,"bash")) { //on regarde quel shell on a pour pouvoir travailler en fonction  //j'aurais pu faire juste un open de
+        char * pathHistory= mystrcat(home,"/.bash_history"); //concatenation du path pour le fopen
+        FILE *FichierHistoryCalculLine = fopen(pathHistory, "r"); //changer ce path là
+        if (FichierHistoryCalculLine == NULL) {
+            printf("\nle fichier n'a pas été trouvé\n");
+            return;
         }
+        char caractère;
+        char caractereFor;
+        int NbLigne = 0;
+        int j = 0;
+        for (int k = 0;
+             (caractereFor = getc(FichierHistoryCalculLine)) != EOF; ++k) { //pour calculer le nombre de ligne max
+            if (caractereFor == '\n') {
+                NbLigne++;
+            }
+        }
+        printf("le nombre de ligne : %d\n", NbLigne);
+        fclose(FichierHistoryCalculLine); // on close puis reouvre le fichier pour recommencer a 0
+
+
+        FILE *FichierHistory = fopen(pathHistory, "r");
+        char * pathStokage = "../.historyCommandeBASH.txt"; //le place dans le dossier mini_shell
+        printf("\nLe fichier sera dans : %s",pathStokage);
+        FILE *FichierStokage = fopen(pathStokage, "w");
+//        if (FichierStokage == NULL) {
+//            printf("\nle fichier n'a pas été trouvé\nCréation du fichier dans le dossier du projet\n");
+//            mytouch(pathStokage);
+//            fclose(FichierStokage);
+//            FILE *FichierStokage = fopen(pathStokage, "w");
+//        }
+        while ((caractère = getc(FichierHistory)) != EOF) {
+            //putc(caractère, FichierStokage);
+            if (caractère == '\n') {
+                j++;
+            }
+            if (j >= NbLigne - NbCommande && j < NbLigne) {
+                putc(caractère, FichierStokage);
+//                    printf ("\nle j = %d\n",j);
+
+            }
+        }
+        fclose(FichierHistory);
+        fclose(FichierStokage);
+    }
+    else if (mystrstr(shell,"/sh")) { //on regarde quel shell on a pour pouvoir travailler en fonction  //j'aurais pu faire juste un open de
+        char * pathHistory= mystrcat(home,"/.sh_history"); //concatenation du path pour le fopen
+        FILE *FichierHistoryCalculLine = fopen(pathHistory, "r"); //changer ce path là
+        if (FichierHistoryCalculLine == NULL) {
+            printf("\nle fichier n'a pas été trouvé\n");
+            return;
+        }
+        char caractère;
+        char caractereFor;
+        int NbLigne = 0;
+        int j = 0;
+        for (int k = 0;
+             (caractereFor = getc(FichierHistoryCalculLine)) != EOF; ++k) { //pour calculer le nombre de ligne max
+            if (caractereFor == '\n') {
+                NbLigne++;
+            }
+        }
+        printf("le nombre de ligne : %d\n", NbLigne);
+        fclose(FichierHistoryCalculLine); // on close puis reouvre le fichier pour recommencer a 0
+
+
+        FILE *FichierHistory = fopen(pathHistory, "r");
+        char * pathStokage = "../.historyCommandeSH.txt"; //le place dans le dossier mini_shell
+        printf("\nLe fichier sera dans : %s",pathStokage);
+        FILE *FichierStokage = fopen(pathStokage, "w");
+//        if (FichierStokage == NULL) {
+//            printf("\nle fichier n'a pas été trouvé\nCréation du fichier dans le dossier du projet\n");
+//            mytouch(pathStokage);
+//            fclose(FichierStokage);
+//            FILE *FichierStokage = fopen(pathStokage, "w");
+//        }
+        while ((caractère = getc(FichierHistory)) != EOF) {
+            //putc(caractère, FichierStokage);
+            if (caractère == '\n') {
+                j++;
+            }
+            if (j >= NbLigne - NbCommande && j < NbLigne) {
+                putc(caractère, FichierStokage);
+//                    printf ("\nle j = %d\n",j);
+
+            }
+        }
+        fclose(FichierHistory);
+        fclose(FichierStokage);
+    }
+    else if (mystrstr(shell,"/ksh")) { //on regarde quel shell on a pour pouvoir travailler en fonction  //j'aurais pu faire juste un open de
+        char * pathHistory= mystrcat(home,"/.ksh_history"); //concatenation du path pour le fopen
+        FILE *FichierHistoryCalculLine = fopen(pathHistory, "r"); //changer ce path là
+        if (FichierHistoryCalculLine == NULL) {
+            printf("\nle fichier n'a pas été trouvé\n");
+            return;
+        }
+        char caractère;
+        char caractereFor;
+        int NbLigne = 0;
+        int j = 0;
+        for (int k = 0;
+             (caractereFor = getc(FichierHistoryCalculLine)) != EOF; ++k) { //pour calculer le nombre de ligne max
+            if (caractereFor == '\n') {
+                NbLigne++;
+            }
+        }
+        printf("le nombre de ligne : %d\n", NbLigne);
+        fclose(FichierHistoryCalculLine); // on close puis reouvre le fichier pour recommencer a 0
+
+
+        FILE *FichierHistory = fopen(pathHistory, "r");
+        char * pathStokage = "../.historyCommandeKSH.txt"; //le place dans le dossier mini_shell
+        printf("\nLe fichier sera dans : %s",pathStokage);
+        FILE *FichierStokage = fopen(pathStokage, "w");
+        while ((caractère = getc(FichierHistory)) != EOF) {
+            if (caractère == '\n') {
+                j++;
+            }
+            if (j >= NbLigne - NbCommande && j < NbLigne) {
+                putc(caractère, FichierStokage);
+            }
+        }
+        fclose(FichierHistory);
+        fclose(FichierStokage);
+    }
+    else {
+        printf("votre shell n'est pas repertorié veuillez contacter l'administrateur");
     }
 }

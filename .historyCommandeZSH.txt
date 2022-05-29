@@ -1,0 +1,21 @@
+
+./clion.sh
+cd /home/kali/Desktop
+cd ..
+ls
+ls -l
+ls -la
+wc -l .zsh_history
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+VAR1='coucou'
+set -o
+set
+set | grep 0
+set | grep 0=
+set | grep zsh
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+exit

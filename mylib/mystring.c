@@ -44,6 +44,12 @@ char *my_string_n_cpy(char *dest,const char *str,int n){
     return dest;
 }
 
+char * mystrcat(register char * s1, register const char * s2){
+    char *save = s1;
+    for (; *s1; ++s1);
+    while (*s1++ = *s2++);
+    return(save);
+}
 char* mystrchr(char *p, char separateur) { //recherche le caractère placer en parametre (ici mon separateur)
     do{
         if (*p == separateur){
@@ -97,27 +103,56 @@ int mystrcmp(const char *s1, const char *s2){ // pour comparer 2 chaines (renvoi
     }
     return ret;
 }
+char * mystrstr(char *string, char *substring){
+    register char *a, *b;
 
-int mystrstr(const char *s1 , const char *s2){
-//    char * c = s2 ;
-//    c = c+1;
-//    if (c!=NULL){
-//        return s1;
-//    }
-//    int len = mystrlen(s2);
-//
+    b = substring;
+    if (*b == 0) {
+        return string;
+    }
+    for ( ; *string != 0; string += 1) {
+        if (*string != *b) {
+            continue;
+        }
+        a = string;
+        while (1) {
+            if (*b == 0) {
+                return string;
+            }
+            if (*a++ != *b++) {
+                break;
+            }
+        }
+        b = substring;
+    }
+    return NULL;
+}
+
+int mystrmy(const char *s1 , const char *s2){
     if ( s2 == NULL ){
         printf("Il manque au moins un paramètre");
     }
     else{
+        int i;
+        int result;
         //printf("le chaine 1 : %s\nLa chaine 2 : %s",s1,s2);
-        for (int i = 0 ; i < mystrlen(s2);i++){
+        for ( i = 0 ; i < mystrlen(s2);i++){
             for (int j = 0; j < mystrlen(s1); j++) {
                 if (s1[j] == s2[i]){
-                    printf("caractère trouvé %c | %c\n",s1[j],s2[i]); //si j==mystrlen(s2) alors le mot a été trouver entierrement
+                    //printf("caractère trouvé %c | %c\n",s1[j],s2[i]); //si j==mystrlen(s2) alors le mot a été trouver entierrement
                 }
             }
 
+        }
+        if (i == mystrlen(s2)){
+            printf("\nLe i = %d\nLe mystrlen(s2) = %d",i, mystrlen(s2));
+            result=0;
+            return result;
+        }
+        else{
+            printf("\nLe i = %d\nLe mystrlen(s2) = %d",i, mystrlen(s2));
+            result=1;
+            return result;
         }
     }
 
