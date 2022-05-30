@@ -16,4 +16,5 @@ void mytouch(char *chaineSplit){
         F1 = fopen(chaineSplit,"a");
     }
     fclose(F1);
+
 }

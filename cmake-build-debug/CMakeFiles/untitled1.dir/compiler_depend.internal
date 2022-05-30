@@ -6,6 +6,7 @@ CMakeFiles/untitled1.dir/main.c.o
  /usr/include/stdc-predef.h
  /home/kali/CLionProjects/mini_shellG/HLib.h
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /home/kali/CLionProjects/mini_shellG/mylib/mycd.h
  /home/kali/CLionProjects/mini_shellG/mylib/myls.h
  /home/kali/CLionProjects/mini_shellG/mylib/myrmdir.h
@@ -36,7 +37,6 @@ CMakeFiles/untitled1.dir/main.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
@@ -96,6 +96,7 @@ CMakeFiles/untitled1.dir/mylib/mycd.c.o
  /usr/include/stdc-predef.h
  /home/kali/CLionProjects/mini_shellG/HLib.h
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /home/kali/CLionProjects/mini_shellG/mylib/mycd.h
  /home/kali/CLionProjects/mini_shellG/mylib/myls.h
  /home/kali/CLionProjects/mini_shellG/mylib/myrmdir.h
@@ -126,7 +127,6 @@ CMakeFiles/untitled1.dir/mylib/mycd.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
@@ -187,6 +187,7 @@ CMakeFiles/untitled1.dir/mylib/mydate.c.o
  /usr/include/stdc-predef.h
  /home/kali/CLionProjects/mini_shellG/HLib.h
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /home/kali/CLionProjects/mini_shellG/mylib/mycd.h
  /home/kali/CLionProjects/mini_shellG/mylib/myls.h
  /home/kali/CLionProjects/mini_shellG/mylib/myrmdir.h
@@ -217,7 +218,6 @@ CMakeFiles/untitled1.dir/mylib/mydate.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
@@ -278,6 +278,7 @@ CMakeFiles/untitled1.dir/mylib/myecho.c.o
  /usr/include/stdc-predef.h
  /home/kali/CLionProjects/mini_shellG/HLib.h
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /home/kali/CLionProjects/mini_shellG/mylib/mycd.h
  /home/kali/CLionProjects/mini_shellG/mylib/myls.h
  /home/kali/CLionProjects/mini_shellG/mylib/myrmdir.h
@@ -308,7 +309,6 @@ CMakeFiles/untitled1.dir/mylib/myecho.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
@@ -369,6 +369,7 @@ CMakeFiles/untitled1.dir/mylib/myhelp.c.o
  /usr/include/stdc-predef.h
  /home/kali/CLionProjects/mini_shellG/HLib.h
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /home/kali/CLionProjects/mini_shellG/mylib/mycd.h
  /home/kali/CLionProjects/mini_shellG/mylib/myls.h
  /home/kali/CLionProjects/mini_shellG/mylib/myrmdir.h
@@ -399,7 +400,6 @@ CMakeFiles/untitled1.dir/mylib/myhelp.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
@@ -460,6 +460,7 @@ CMakeFiles/untitled1.dir/mylib/myhistory.c.o
  /usr/include/stdc-predef.h
  /home/kali/CLionProjects/mini_shellG/HLib.h
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /home/kali/CLionProjects/mini_shellG/mylib/mycd.h
  /home/kali/CLionProjects/mini_shellG/mylib/myls.h
  /home/kali/CLionProjects/mini_shellG/mylib/myrmdir.h
@@ -490,7 +491,6 @@ CMakeFiles/untitled1.dir/mylib/myhistory.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
@@ -551,6 +551,7 @@ CMakeFiles/untitled1.dir/mylib/myls.c.o
  /usr/include/stdc-predef.h
  /home/kali/CLionProjects/mini_shellG/HLib.h
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /home/kali/CLionProjects/mini_shellG/mylib/mycd.h
  /home/kali/CLionProjects/mini_shellG/mylib/myls.h
  /home/kali/CLionProjects/mini_shellG/mylib/myrmdir.h
@@ -581,7 +582,6 @@ CMakeFiles/untitled1.dir/mylib/myls.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
@@ -641,6 +641,7 @@ CMakeFiles/untitled1.dir/mylib/mymd.c.o
  /usr/include/stdc-predef.h
  /home/kali/CLionProjects/mini_shellG/HLib.h
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /home/kali/CLionProjects/mini_shellG/mylib/mycd.h
  /home/kali/CLionProjects/mini_shellG/mylib/myls.h
  /home/kali/CLionProjects/mini_shellG/mylib/myrmdir.h
@@ -671,7 +672,6 @@ CMakeFiles/untitled1.dir/mylib/mymd.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
@@ -732,6 +732,7 @@ CMakeFiles/untitled1.dir/mylib/mypwd.c.o
  /usr/include/stdc-predef.h
  /home/kali/CLionProjects/mini_shellG/HLib.h
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /home/kali/CLionProjects/mini_shellG/mylib/mycd.h
  /home/kali/CLionProjects/mini_shellG/mylib/myls.h
  /home/kali/CLionProjects/mini_shellG/mylib/myrmdir.h
@@ -762,7 +763,6 @@ CMakeFiles/untitled1.dir/mylib/mypwd.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
@@ -823,6 +823,7 @@ CMakeFiles/untitled1.dir/mylib/myrename.c.o
  /usr/include/stdc-predef.h
  /home/kali/CLionProjects/mini_shellG/HLib.h
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /home/kali/CLionProjects/mini_shellG/mylib/mycd.h
  /home/kali/CLionProjects/mini_shellG/mylib/myls.h
  /home/kali/CLionProjects/mini_shellG/mylib/myrmdir.h
@@ -853,7 +854,6 @@ CMakeFiles/untitled1.dir/mylib/myrename.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
@@ -914,6 +914,7 @@ CMakeFiles/untitled1.dir/mylib/myrmdir.c.o
  /usr/include/stdc-predef.h
  /home/kali/CLionProjects/mini_shellG/HLib.h
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /home/kali/CLionProjects/mini_shellG/mylib/mycd.h
  /home/kali/CLionProjects/mini_shellG/mylib/myls.h
  /home/kali/CLionProjects/mini_shellG/mylib/myrmdir.h
@@ -944,7 +945,6 @@ CMakeFiles/untitled1.dir/mylib/myrmdir.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
@@ -1004,6 +1004,7 @@ CMakeFiles/untitled1.dir/mylib/mystring.c.o
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.c
  /usr/include/stdc-predef.h
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/stdio.h
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h
  /usr/include/features.h
@@ -1022,7 +1023,6 @@ CMakeFiles/untitled1.dir/mylib/mystring.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
@@ -1060,6 +1060,7 @@ CMakeFiles/untitled1.dir/mylib/mytime.c.o
  /usr/include/stdc-predef.h
  /home/kali/CLionProjects/mini_shellG/HLib.h
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /home/kali/CLionProjects/mini_shellG/mylib/mycd.h
  /home/kali/CLionProjects/mini_shellG/mylib/myls.h
  /home/kali/CLionProjects/mini_shellG/mylib/myrmdir.h
@@ -1090,7 +1091,6 @@ CMakeFiles/untitled1.dir/mylib/mytime.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h
@@ -1151,6 +1151,7 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o
  /usr/include/stdc-predef.h
  /home/kali/CLionProjects/mini_shellG/HLib.h
  /home/kali/CLionProjects/mini_shellG/mylib/mystring.h
+ /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /home/kali/CLionProjects/mini_shellG/mylib/mycd.h
  /home/kali/CLionProjects/mini_shellG/mylib/myls.h
  /home/kali/CLionProjects/mini_shellG/mylib/myrmdir.h
@@ -1181,7 +1182,6 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o
  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h
  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h
- /usr/include/x86_64-linux-gnu/bits/types/FILE.h
  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h
  /usr/include/x86_64-linux-gnu/bits/floatn.h

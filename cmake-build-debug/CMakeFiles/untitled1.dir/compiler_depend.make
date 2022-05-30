@@ -5,6 +5,7 @@ CMakeFiles/untitled1.dir/main.c.o: ../main.c \
   /usr/include/stdc-predef.h \
   ../HLib.h \
   ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   ../mylib/mycd.h \
   ../mylib/myls.h \
   ../mylib/myrmdir.h \
@@ -35,7 +36,6 @@ CMakeFiles/untitled1.dir/main.c.o: ../main.c \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -94,6 +94,7 @@ CMakeFiles/untitled1.dir/mylib/mycd.c.o: ../mylib/mycd.c \
   /usr/include/stdc-predef.h \
   ../HLib.h \
   ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   ../mylib/mycd.h \
   ../mylib/myls.h \
   ../mylib/myrmdir.h \
@@ -124,7 +125,6 @@ CMakeFiles/untitled1.dir/mylib/mycd.c.o: ../mylib/mycd.c \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -184,6 +184,7 @@ CMakeFiles/untitled1.dir/mylib/mydate.c.o: ../mylib/mydate.c \
   /usr/include/stdc-predef.h \
   ../HLib.h \
   ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   ../mylib/mycd.h \
   ../mylib/myls.h \
   ../mylib/myrmdir.h \
@@ -214,7 +215,6 @@ CMakeFiles/untitled1.dir/mylib/mydate.c.o: ../mylib/mydate.c \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -274,6 +274,7 @@ CMakeFiles/untitled1.dir/mylib/myecho.c.o: ../mylib/myecho.c \
   /usr/include/stdc-predef.h \
   ../HLib.h \
   ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   ../mylib/mycd.h \
   ../mylib/myls.h \
   ../mylib/myrmdir.h \
@@ -304,7 +305,6 @@ CMakeFiles/untitled1.dir/mylib/myecho.c.o: ../mylib/myecho.c \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -364,6 +364,7 @@ CMakeFiles/untitled1.dir/mylib/myhelp.c.o: ../mylib/myhelp.c \
   /usr/include/stdc-predef.h \
   ../HLib.h \
   ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   ../mylib/mycd.h \
   ../mylib/myls.h \
   ../mylib/myrmdir.h \
@@ -394,7 +395,6 @@ CMakeFiles/untitled1.dir/mylib/myhelp.c.o: ../mylib/myhelp.c \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -454,6 +454,7 @@ CMakeFiles/untitled1.dir/mylib/myhistory.c.o: ../mylib/myhistory.c \
   /usr/include/stdc-predef.h \
   ../HLib.h \
   ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   ../mylib/mycd.h \
   ../mylib/myls.h \
   ../mylib/myrmdir.h \
@@ -484,7 +485,6 @@ CMakeFiles/untitled1.dir/mylib/myhistory.c.o: ../mylib/myhistory.c \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -544,6 +544,7 @@ CMakeFiles/untitled1.dir/mylib/myls.c.o: ../mylib/myls.c \
   /usr/include/stdc-predef.h \
   ../HLib.h \
   ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   ../mylib/mycd.h \
   ../mylib/myls.h \
   ../mylib/myrmdir.h \
@@ -574,7 +575,6 @@ CMakeFiles/untitled1.dir/mylib/myls.c.o: ../mylib/myls.c \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -633,6 +633,7 @@ CMakeFiles/untitled1.dir/mylib/mymd.c.o: ../mylib/mymd.c \
   /usr/include/stdc-predef.h \
   ../HLib.h \
   ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   ../mylib/mycd.h \
   ../mylib/myls.h \
   ../mylib/myrmdir.h \
@@ -663,7 +664,6 @@ CMakeFiles/untitled1.dir/mylib/mymd.c.o: ../mylib/mymd.c \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -723,6 +723,7 @@ CMakeFiles/untitled1.dir/mylib/mypwd.c.o: ../mylib/mypwd.c \
   /usr/include/stdc-predef.h \
   ../HLib.h \
   ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   ../mylib/mycd.h \
   ../mylib/myls.h \
   ../mylib/myrmdir.h \
@@ -753,7 +754,6 @@ CMakeFiles/untitled1.dir/mylib/mypwd.c.o: ../mylib/mypwd.c \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -813,6 +813,7 @@ CMakeFiles/untitled1.dir/mylib/myrename.c.o: ../mylib/myrename.c \
   /usr/include/stdc-predef.h \
   ../HLib.h \
   ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   ../mylib/mycd.h \
   ../mylib/myls.h \
   ../mylib/myrmdir.h \
@@ -843,7 +844,6 @@ CMakeFiles/untitled1.dir/mylib/myrename.c.o: ../mylib/myrename.c \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -903,6 +903,7 @@ CMakeFiles/untitled1.dir/mylib/myrmdir.c.o: ../mylib/myrmdir.c \
   /usr/include/stdc-predef.h \
   ../HLib.h \
   ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   ../mylib/mycd.h \
   ../mylib/myls.h \
   ../mylib/myrmdir.h \
@@ -933,7 +934,6 @@ CMakeFiles/untitled1.dir/mylib/myrmdir.c.o: ../mylib/myrmdir.c \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -992,6 +992,7 @@ CMakeFiles/untitled1.dir/mylib/myrmdir.c.o: ../mylib/myrmdir.c \
 CMakeFiles/untitled1.dir/mylib/mystring.c.o: ../mylib/mystring.c \
   /usr/include/stdc-predef.h \
   ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -1010,7 +1011,6 @@ CMakeFiles/untitled1.dir/mylib/mystring.c.o: ../mylib/mystring.c \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -1047,6 +1047,7 @@ CMakeFiles/untitled1.dir/mylib/mytime.c.o: ../mylib/mytime.c \
   /usr/include/stdc-predef.h \
   ../HLib.h \
   ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   ../mylib/mycd.h \
   ../mylib/myls.h \
   ../mylib/myrmdir.h \
@@ -1077,7 +1078,6 @@ CMakeFiles/untitled1.dir/mylib/mytime.c.o: ../mylib/mytime.c \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -1137,6 +1137,7 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o: ../mylib/mytouch.c \
   /usr/include/stdc-predef.h \
   ../HLib.h \
   ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   ../mylib/mycd.h \
   ../mylib/myls.h \
   ../mylib/myrmdir.h \
@@ -1167,7 +1168,6 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o: ../mylib/mytouch.c \
   /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
   /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
   /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
   /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
   /usr/include/x86_64-linux-gnu/bits/floatn.h \
@@ -1270,33 +1270,13 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o: ../mylib/mytouch.c \
 
 /usr/include/x86_64-linux-gnu/bits/dirent.h:
 
-../mylib/myecho.h:
+/usr/include/x86_64-linux-gnu/bits/environments.h:
 
-/usr/include/x86_64-linux-gnu/bits/stat.h:
+../mylib/myecho.h:
 
 ../mylib/mystring.h:
 
-../mylib/myrmdir.h:
-
-/usr/include/alloca.h:
-
-../mylib/mymd.h:
-
-/usr/include/endian.h:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-../HLib.h:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
-
-/usr/include/x86_64-linux-gnu/bits/timesize.h:
-
-/usr/include/stdio.h:
+/usr/include/x86_64-linux-gnu/bits/stat.h:
 
 /usr/include/x86_64-linux-gnu/bits/floatn.h:
 
@@ -1310,6 +1290,28 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o: ../mylib/mytouch.c \
 
 ../mylib/myhistory.c:
 
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+
+../HLib.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
+
+/usr/include/x86_64-linux-gnu/bits/struct_stat.h:
+
+../mylib/myrmdir.h:
+
+/usr/include/alloca.h:
+
+../mylib/mymd.h:
+
+/usr/include/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/timesize.h:
+
+/usr/include/stdio.h:
+
 /usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
 
 /usr/include/features.h:
@@ -1317,8 +1319,6 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o: ../mylib/mytouch.c \
 ../mylib/myrename.h:
 
 ../mylib/mypwd.h:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
 
 /usr/include/stdc-predef.h:
 

@@ -7,6 +7,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//simule la lib <string.h>
 
 int mystrlen(const char *str){
     int i;

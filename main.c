@@ -1,6 +1,7 @@
 #include "HLib.h"
 
 //la foncione pipe et fork peuvent etre utile .
+//gcc mylib/mycd.c mylib/mydate.c mylib/myecho.c mylib/myhelp.c mylib/myhistory.c mylib/myls.c mylib/mymd.c mylib/mypwd.c mylib/myrename.c mylib/myrmdir.c mylib/mystring.c mylib/mytime.c mylib/mytouch.c main.c -o GRFShell
 
 int NbArguments;
 //int Nbcaractere;
@@ -74,14 +75,6 @@ int shell_execute(char** chaineSplit){
     }
     else if (mystrcmp(commande,"help")==0){
         myhelp(chaineSplit[1]);
-    }
-    else if (mystrcmp(commande,"try")==0){
-        if (mystrstr("coucou comment ca va","comment")!=NULL){
-            printf("\nla chaine a été trouvé");
-        }
-        else{
-            printf("\nla chaine n'a pas été trouvé");
-        }
     }
     else if (mystrcmp(commande,"manuel")==0){
         printf(" - cd\n - echo\n - pwd\n - exit\n - ls\n - md\n - rm\n - help\n - ren\n - help\n - touch\n - history\n - date\n");

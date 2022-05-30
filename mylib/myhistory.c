@@ -87,12 +87,6 @@ void myhistory(char * NbCommandeChar){
         char * pathStokage = "../.historyCommandeBASH.txt"; //le place dans le dossier mini_shell
         printf("\nLe fichier sera dans : %s",pathStokage);
         FILE *FichierStokage = fopen(pathStokage, "w");
-//        if (FichierStokage == NULL) {
-//            printf("\nle fichier n'a pas été trouvé\nCréation du fichier dans le dossier du projet\n");
-//            mytouch(pathStokage);
-//            fclose(FichierStokage);
-//            FILE *FichierStokage = fopen(pathStokage, "w");
-//        }
         while ((caractère = getc(FichierHistory)) != EOF) {
             //putc(caractère, FichierStokage);
             if (caractère == '\n') {
@@ -131,12 +125,6 @@ void myhistory(char * NbCommandeChar){
         char * pathStokage = "../.historyCommandeSH.txt"; //le place dans le dossier mini_shell
         printf("\nLe fichier sera dans : %s",pathStokage);
         FILE *FichierStokage = fopen(pathStokage, "w");
-//        if (FichierStokage == NULL) {
-//            printf("\nle fichier n'a pas été trouvé\nCréation du fichier dans le dossier du projet\n");
-//            mytouch(pathStokage);
-//            fclose(FichierStokage);
-//            FILE *FichierStokage = fopen(pathStokage, "w");
-//        }
         while ((caractère = getc(FichierHistory)) != EOF) {
             //putc(caractère, FichierStokage);
             if (caractère == '\n') {
