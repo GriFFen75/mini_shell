@@ -6,7 +6,8 @@
 
 #include "mymd.h"
 
-void mymd(char*chaineSplit){
+int mymd(char*chaineSplit){
     mkdir(chaineSplit,0755);
+    return 1;
 }
 

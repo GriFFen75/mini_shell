@@ -5,6 +5,6 @@
 #ifndef UNTITLED1_MYTOUCH_H
 #define UNTITLED1_MYTOUCH_H
 
-void mytouch(char * chaineSplit);
+int mytouch(char * chaineSplit);
 
 #endif //UNTITLED1_MYTOUCH_H

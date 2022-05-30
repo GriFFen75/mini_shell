@@ -5,6 +5,6 @@
 #ifndef UNTITLED1_MYRENAME_H
 #define UNTITLED1_MYRENAME_H
 
-void myrename(char * chaineSplitOld , char * chaineSplitNew);
+int myrename(char * chaineSplitOld , char * chaineSplitNew);
 
 #endif //UNTITLED1_MYRENAME_H

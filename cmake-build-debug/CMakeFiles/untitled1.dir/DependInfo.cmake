@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/kali/CLionProjects/mini_shellG/main.c" "CMakeFiles/untitled1.dir/main.c.o" "gcc" "CMakeFiles/untitled1.dir/main.c.o.d"
   "/home/kali/CLionProjects/mini_shellG/mylib/mycd.c" "CMakeFiles/untitled1.dir/mylib/mycd.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/mycd.c.o.d"
+  "/home/kali/CLionProjects/mini_shellG/mylib/mycls.c" "CMakeFiles/untitled1.dir/mylib/mycls.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/mycls.c.o.d"
   "/home/kali/CLionProjects/mini_shellG/mylib/mydate.c" "CMakeFiles/untitled1.dir/mylib/mydate.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/mydate.c.o.d"
   "/home/kali/CLionProjects/mini_shellG/mylib/myecho.c" "CMakeFiles/untitled1.dir/mylib/myecho.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/myecho.c.o.d"
   "/home/kali/CLionProjects/mini_shellG/mylib/myhelp.c" "CMakeFiles/untitled1.dir/mylib/myhelp.c.o" "gcc" "CMakeFiles/untitled1.dir/mylib/myhelp.c.o.d"

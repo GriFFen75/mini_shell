@@ -6,7 +6,8 @@
 
 #include "myrmdir.h"
 
-void myrmdir(char *chaineSplit){
+int myrmdir(char *chaineSplit){
     printf("Le path est %s",chaineSplit);
     rmdir(chaineSplit); // si il reussi il ferme le prog jsp pk
+    return 1;
 }

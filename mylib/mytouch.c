@@ -6,7 +6,7 @@
 
 #include "mytouch.h"
 
-void mytouch(char *chaineSplit){
+int mytouch(char *chaineSplit){
     FILE *F1;
     if (chaineSplit == NULL){
         F1 = fopen(".","a");
@@ -16,5 +16,5 @@ void mytouch(char *chaineSplit){
         F1 = fopen(chaineSplit,"a");
     }
     fclose(F1);
-
+    return 1;
 }

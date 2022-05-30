@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/main.c.o.d"
   "CMakeFiles/untitled1.dir/mylib/mycd.c.o"
   "CMakeFiles/untitled1.dir/mylib/mycd.c.o.d"
+  "CMakeFiles/untitled1.dir/mylib/mycls.c.o"
+  "CMakeFiles/untitled1.dir/mylib/mycls.c.o.d"
   "CMakeFiles/untitled1.dir/mylib/mydate.c.o"
   "CMakeFiles/untitled1.dir/mylib/mydate.c.o.d"
   "CMakeFiles/untitled1.dir/mylib/myecho.c.o"

@@ -18,6 +18,7 @@
 #include "mylib/myhistory.h"
 #include "mylib/mydate.h"
 #include "mylib/mytime.h"
+#include "mylib/mycls.h"
 
 
 
@@ -28,5 +29,8 @@
 #include <dirent.h>
 #include <sys/stat.h>
 #include <time.h>
+#include <signal.h>
+#include <error.h>
+#include <errno.h>
 
 #endif //UNTITLED1_HLIB_H

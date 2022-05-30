@@ -2,6 +2,15 @@
 
 //la foncione pipe et fork peuvent etre utile .
 //gcc mylib/mycd.c mylib/mydate.c mylib/myecho.c mylib/myhelp.c mylib/myhistory.c mylib/myls.c mylib/mymd.c mylib/mypwd.c mylib/myrename.c mylib/myrmdir.c mylib/mystring.c mylib/mytime.c mylib/mytouch.c main.c -o GRFShell
+//voir la commande signal
+//faire les arrow
+
+/*SIGINT =  signal d'interruption générale
+ *SIGTERM = signal d'interuption du programme */
+
+/*ajouter la commande dans un fichier GRFShellrc
+ * */
+
 
 int NbArguments;
 //int Nbcaractere;
@@ -73,6 +82,9 @@ int shell_execute(char** chaineSplit){
     else if (mystrcmp(commande,"time")==0){
         mytime();
     }
+    else if (mystrcmp(commande,"cls")==0){
+        mycls();
+    }
     else if (mystrcmp(commande,"help")==0){
         myhelp(chaineSplit[1]);
     }
@@ -86,8 +98,6 @@ int shell_execute(char** chaineSplit){
         printf ("\nCe que vous avez ecris n'est pas une commande\nConsultez la liste des commandes possible avec 'manuel'");
     }
 }
-
-
 
 void shell_loop(void){
     char *line;

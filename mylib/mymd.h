@@ -5,6 +5,6 @@
 #ifndef UNTITLED1_MYMD_H
 #define UNTITLED1_MYMD_H
 
-void mymd(char*chaineSplit);
+int mymd(char*chaineSplit);
 
 #endif //UNTITLED1_MYMD_H

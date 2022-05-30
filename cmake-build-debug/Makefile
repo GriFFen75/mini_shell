@@ -177,6 +177,30 @@ mylib/mycd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mycd.c.s
 .PHONY : mylib/mycd.c.s
 
+mylib/mycls.o: mylib/mycls.c.o
+.PHONY : mylib/mycls.o
+
+# target to build an object file
+mylib/mycls.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mycls.c.o
+.PHONY : mylib/mycls.c.o
+
+mylib/mycls.i: mylib/mycls.c.i
+.PHONY : mylib/mycls.i
+
+# target to preprocess a source file
+mylib/mycls.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mycls.c.i
+.PHONY : mylib/mycls.c.i
+
+mylib/mycls.s: mylib/mycls.c.s
+.PHONY : mylib/mycls.s
+
+# target to generate assembly for a file
+mylib/mycls.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mycls.c.s
+.PHONY : mylib/mycls.c.s
+
 mylib/mydate.o: mylib/mydate.c.o
 .PHONY : mylib/mydate.o
 
@@ -480,6 +504,9 @@ help:
 	@echo "... mylib/mycd.o"
 	@echo "... mylib/mycd.i"
 	@echo "... mylib/mycd.s"
+	@echo "... mylib/mycls.o"
+	@echo "... mylib/mycls.i"
+	@echo "... mylib/mycls.s"
 	@echo "... mylib/mydate.o"
 	@echo "... mylib/mydate.i"
 	@echo "... mylib/mydate.s"

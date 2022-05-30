@@ -5,6 +5,6 @@
 #ifndef UNTITLED1_MYRMDIR_H
 #define UNTITLED1_MYRMDIR_H
 
-void myrmdir(char *chaineSplit);
+int myrmdir(char *chaineSplit);
 
 #endif //UNTITLED1_MYRMDIR_H

@@ -6,7 +6,7 @@
 
 #include "myhistory.h"
 
-void myhistory(char * NbCommandeChar){
+int myhistory(char * NbCommandeChar){
     int NbCommande;
     if (NbCommandeChar == NULL){
         NbCommande= 10;
@@ -24,7 +24,7 @@ void myhistory(char * NbCommandeChar){
         FILE *FichierHistoryCalculLine = fopen(pathHistory, "r"); //changer ce path là
         if (FichierHistoryCalculLine == NULL) {
             printf("\nle fichier n'a pas été trouvé\n");
-            return;
+            return 1;
         }
         char caractère;
 //        char caractereFor;
@@ -67,7 +67,7 @@ void myhistory(char * NbCommandeChar){
         FILE *FichierHistoryCalculLine = fopen(pathHistory, "r"); //changer ce path là
         if (FichierHistoryCalculLine == NULL) {
             printf("\nle fichier n'a pas été trouvé\n");
-            return;
+            return 1;
         }
         char caractère;
         char caractereFor;
@@ -105,7 +105,7 @@ void myhistory(char * NbCommandeChar){
         FILE *FichierHistoryCalculLine = fopen(pathHistory, "r"); //changer ce path là
         if (FichierHistoryCalculLine == NULL) {
             printf("\nle fichier n'a pas été trouvé\n");
-            return;
+            return 1;
         }
         char caractère;
         char caractereFor;
@@ -143,7 +143,7 @@ void myhistory(char * NbCommandeChar){
         FILE *FichierHistoryCalculLine = fopen(pathHistory, "r"); //changer ce path là
         if (FichierHistoryCalculLine == NULL) {
             printf("\nle fichier n'a pas été trouvé\n");
-            return;
+            return 1;
         }
         char caractère;
         char caractereFor;
@@ -178,4 +178,5 @@ void myhistory(char * NbCommandeChar){
     else {
         printf("votre shell n'est pas repertorié veuillez contacter l'administrateur");
     }
+    return 1;
 }

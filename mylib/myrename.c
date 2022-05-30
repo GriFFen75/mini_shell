@@ -6,6 +6,7 @@
 
 #include "myrename.h"
 
-void myrename(char * chaineSplitOld , char * chaineSplitNew){
+int myrename(char * chaineSplitOld , char * chaineSplitNew){
     rename(chaineSplitOld,chaineSplitNew);
+    return 1;
 }
