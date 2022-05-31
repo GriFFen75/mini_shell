@@ -14,8 +14,14 @@ void myecho(char ** chaineSplit , int NbArguments){
             printf("Vous n'avez rien écrit en paramètre");
         }
         else{
-            write(1,chaineSplit[i],mystrlen(chaineSplit[i]));
-            write(1," ",1);
+            char * variableEnvironnement;
+            if(variableEnvironnement = getenv(chaineSplit[1])){
+                printf("\n%s\n",variableEnvironnement);
+            }
+            else{
+                write(1,chaineSplit[i],mystrlen(chaineSplit[i]));
+                write(1," ",1);
+            }
         }
     }
 }

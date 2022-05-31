@@ -11,7 +11,7 @@ void myhelp(char * chaineSplit){
         printf(" - cd : \n(change directory) Change de repertoire\n");
     }
     else if (mystrcmp(chaineSplit,"echo")==0){
-        printf(" - echo : \nAffiche une ligne de texte mise en paramètre\n");
+        printf(" - echo : \nAffiche une ligne de texte mise en paramètre. Si vous voulez afficher une variable d'environnement pas besoin de mettre le '$'\n");
     }
     else if (mystrcmp(chaineSplit,"pwd")==0){
         printf(" - pwd : \nAffiche le repertoire courant\n");
