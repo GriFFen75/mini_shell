@@ -19,7 +19,7 @@ int myhistory(char * NbCommandeChar){
     char * shell = getenv( "SHELL");
     register char * home = getenv("HOME");
 
-    if (mystrstr(shell,"/zsh")) { //on regarde quel shell on a pour pouvoir travailler en fonction  //j'aurais pu faire juste un open de
+    if (mystrstr(shell,"zsh")) { //on regarde quel shell on a pour pouvoir travailler en fonction  //j'aurais pu faire juste un open de
         char * pathHistory= mystrcat(home,"/.zsh_history"); //concatenation du path pour le fopen
         FILE *FichierHistoryCalculLine = fopen(pathHistory, "r"); //changer ce path là
         if (FichierHistoryCalculLine == NULL) {

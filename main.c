@@ -89,7 +89,7 @@ int shell_execute(char** chaineSplit){
         myhelp(chaineSplit[1]);
     }
     else if (mystrcmp(commande,"manuel")==0){
-        printf(" - cd\n - echo\n - pwd\n - exit\n - ls\n - md\n - rm\n - help\n - ren\n - help\n - touch\n - history\n - date\n");
+        printf(" - cd\n - echo\n - pwd\n - exit\n - ls\n - md\n - rm\n - help\n - ren\n - touch\n - history\n - date\n");
     }
     else if (mystrcmp(commande,"exit")==0){
         return EXIT_SUCCESS;

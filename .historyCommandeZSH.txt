@@ -1,11 +1,11 @@
 
-chmod 111 GRFShell
-mv GRFShell /bin
-ls -l | grep /bin/GRFShell
-ls -la | grep /bin/GRFShell
-mv GRFShell /bin
-sudo mv GRFShell /bin
 ls -la | grep /bin/GRFShell
 cls
 clear
 exit
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
+setxkbmap fr
+cd /opt/clion-2022.1.1/bin
+./clion.sh
