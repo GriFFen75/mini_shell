@@ -160,6 +160,12 @@
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mymd.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myotherpid.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myotherpid.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mypwd.c">
 			<Option target="untitled1"/>
 		</Unit>

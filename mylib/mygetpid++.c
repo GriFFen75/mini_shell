@@ -1,5 +1,4 @@
 #include "../HLib.h"
-#include <sys/wait.h>
 
 //
 // Created by kali on 5/31/22.

@@ -27,6 +27,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/untitled1.dir/mylib/myls.c.o.d"
   "CMakeFiles/untitled1.dir/mylib/mymd.c.o"
   "CMakeFiles/untitled1.dir/mylib/mymd.c.o.d"
+  "CMakeFiles/untitled1.dir/mylib/myotherpid.c.o"
+  "CMakeFiles/untitled1.dir/mylib/myotherpid.c.o.d"
   "CMakeFiles/untitled1.dir/mylib/mypwd.c.o"
   "CMakeFiles/untitled1.dir/mylib/mypwd.c.o.d"
   "CMakeFiles/untitled1.dir/mylib/myrename.c.o"

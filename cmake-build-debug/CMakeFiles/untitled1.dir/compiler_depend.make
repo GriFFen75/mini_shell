@@ -23,128 +23,7 @@ CMakeFiles/untitled1.dir/main.c.o: ../main.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
-  /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/features.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
-  /usr/include/x86_64-linux-gnu/sys/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/stat.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/signal.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /usr/include/error.h \
-  /usr/include/x86_64-linux-gnu/bits/error.h \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h
-
-CMakeFiles/untitled1.dir/mylib/mycd.c.o: ../mylib/mycd.c \
-  /usr/include/stdc-predef.h \
-  ../HLib.h \
-  ../mylib/mystring.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  ../mylib/mycd.h \
-  ../mylib/myls.h \
-  ../mylib/myrmdir.h \
-  ../mylib/myrename.h \
-  ../mylib/myecho.h \
-  ../mylib/mymd.h \
-  ../mylib/mypwd.h \
-  ../mylib/myhelp.h \
-  ../mylib/mytouch.h \
-  ../mylib/myhistory.h \
-  ../mylib/mydate.h \
-  ../mylib/mytime.h \
-  ../mylib/mycls.h \
-  ../mylib/mygetpid.h \
-  ../mylib/mygetppid.h \
-  ../mylib/mygetuid.h \
-  ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -244,6 +123,133 @@ CMakeFiles/untitled1.dir/mylib/mycd.c.o: ../mylib/mycd.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h
+
+CMakeFiles/untitled1.dir/mylib/mycd.c.o: ../mylib/mycd.c \
+  /usr/include/stdc-predef.h \
+  ../HLib.h \
+  ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  ../mylib/mycd.h \
+  ../mylib/myls.h \
+  ../mylib/myrmdir.h \
+  ../mylib/myrename.h \
+  ../mylib/myecho.h \
+  ../mylib/mymd.h \
+  ../mylib/mypwd.h \
+  ../mylib/myhelp.h \
+  ../mylib/mytouch.h \
+  ../mylib/myhistory.h \
+  ../mylib/mydate.h \
+  ../mylib/mytime.h \
+  ../mylib/mycls.h \
+  ../mylib/mygetpid.h \
+  ../mylib/mygetppid.h \
+  ../mylib/mygetuid.h \
+  ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
+  /usr/include/x86_64-linux-gnu/sys/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/signal.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/error.h \
+  /usr/include/x86_64-linux-gnu/bits/error.h \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/mycd.h
 
 CMakeFiles/untitled1.dir/mylib/mycls.c.o: ../mylib/mycls.c \
@@ -268,6 +274,7 @@ CMakeFiles/untitled1.dir/mylib/mycls.c.o: ../mylib/mycls.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -367,6 +374,8 @@ CMakeFiles/untitled1.dir/mylib/mycls.c.o: ../mylib/mycls.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/mycls.h
 
 CMakeFiles/untitled1.dir/mylib/mydate.c.o: ../mylib/mydate.c \
@@ -391,6 +400,7 @@ CMakeFiles/untitled1.dir/mylib/mydate.c.o: ../mylib/mydate.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -490,6 +500,8 @@ CMakeFiles/untitled1.dir/mylib/mydate.c.o: ../mylib/mydate.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/mydate.h
 
 CMakeFiles/untitled1.dir/mylib/myecho.c.o: ../mylib/myecho.c \
@@ -514,6 +526,7 @@ CMakeFiles/untitled1.dir/mylib/myecho.c.o: ../mylib/myecho.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -613,6 +626,8 @@ CMakeFiles/untitled1.dir/mylib/myecho.c.o: ../mylib/myecho.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/myecho.h
 
 CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o: ../mylib/mygetpid++.c \
@@ -637,6 +652,7 @@ CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o: ../mylib/mygetpid++.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -736,6 +752,7 @@ CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o: ../mylib/mygetpid++.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
   /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/mygetpid++.h
 
@@ -761,6 +778,7 @@ CMakeFiles/untitled1.dir/mylib/mygetpid.c.o: ../mylib/mygetpid.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -860,6 +878,8 @@ CMakeFiles/untitled1.dir/mylib/mygetpid.c.o: ../mylib/mygetpid.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/mygetpid.h
 
 CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o: ../mylib/mygetpidPereFils.c \
@@ -884,6 +904,7 @@ CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o: ../mylib/mygetpidPereFils.c
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -983,6 +1004,8 @@ CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o: ../mylib/mygetpidPereFils.c
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/mygetpidPereFils.h
 
 CMakeFiles/untitled1.dir/mylib/mygetppid.c.o: ../mylib/mygetppid.c \
@@ -1007,6 +1030,7 @@ CMakeFiles/untitled1.dir/mylib/mygetppid.c.o: ../mylib/mygetppid.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -1106,6 +1130,8 @@ CMakeFiles/untitled1.dir/mylib/mygetppid.c.o: ../mylib/mygetppid.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/mygetppid.h
 
 CMakeFiles/untitled1.dir/mylib/mygetuid.c.o: ../mylib/mygetuid.c \
@@ -1130,6 +1156,7 @@ CMakeFiles/untitled1.dir/mylib/mygetuid.c.o: ../mylib/mygetuid.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -1229,6 +1256,8 @@ CMakeFiles/untitled1.dir/mylib/mygetuid.c.o: ../mylib/mygetuid.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/mygetuid.h
 
 CMakeFiles/untitled1.dir/mylib/myhelp.c.o: ../mylib/myhelp.c \
@@ -1253,6 +1282,7 @@ CMakeFiles/untitled1.dir/mylib/myhelp.c.o: ../mylib/myhelp.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -1352,6 +1382,8 @@ CMakeFiles/untitled1.dir/mylib/myhelp.c.o: ../mylib/myhelp.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/myhelp.h
 
 CMakeFiles/untitled1.dir/mylib/myhistory.c.o: ../mylib/myhistory.c \
@@ -1376,6 +1408,7 @@ CMakeFiles/untitled1.dir/mylib/myhistory.c.o: ../mylib/myhistory.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -1475,6 +1508,8 @@ CMakeFiles/untitled1.dir/mylib/myhistory.c.o: ../mylib/myhistory.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/myhistory.h
 
 CMakeFiles/untitled1.dir/mylib/myls.c.o: ../mylib/myls.c \
@@ -1499,6 +1534,7 @@ CMakeFiles/untitled1.dir/mylib/myls.c.o: ../mylib/myls.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -1597,7 +1633,9 @@ CMakeFiles/untitled1.dir/mylib/myls.c.o: ../mylib/myls.c \
   /usr/include/linux/errno.h \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h
 
 CMakeFiles/untitled1.dir/mylib/mymd.c.o: ../mylib/mymd.c \
   /usr/include/stdc-predef.h \
@@ -1621,6 +1659,7 @@ CMakeFiles/untitled1.dir/mylib/mymd.c.o: ../mylib/mymd.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -1720,7 +1759,135 @@ CMakeFiles/untitled1.dir/mylib/mymd.c.o: ../mylib/mymd.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/mymd.h
+
+CMakeFiles/untitled1.dir/mylib/myotherpid.c.o: ../mylib/myotherpid.c \
+  /usr/include/stdc-predef.h \
+  ../HLib.h \
+  ../mylib/mystring.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  ../mylib/mycd.h \
+  ../mylib/myls.h \
+  ../mylib/myrmdir.h \
+  ../mylib/myrename.h \
+  ../mylib/myecho.h \
+  ../mylib/mymd.h \
+  ../mylib/mypwd.h \
+  ../mylib/myhelp.h \
+  ../mylib/mytouch.h \
+  ../mylib/myhistory.h \
+  ../mylib/mydate.h \
+  ../mylib/mytime.h \
+  ../mylib/mycls.h \
+  ../mylib/mygetpid.h \
+  ../mylib/mygetppid.h \
+  ../mylib/mygetuid.h \
+  ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/features.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h \
+  /usr/include/x86_64-linux-gnu/sys/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/signal.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /usr/include/error.h \
+  /usr/include/x86_64-linux-gnu/bits/error.h \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
+  ../mylib/myotherpid.h
 
 CMakeFiles/untitled1.dir/mylib/mypwd.c.o: ../mylib/mypwd.c \
   /usr/include/stdc-predef.h \
@@ -1744,6 +1911,7 @@ CMakeFiles/untitled1.dir/mylib/mypwd.c.o: ../mylib/mypwd.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -1843,6 +2011,8 @@ CMakeFiles/untitled1.dir/mylib/mypwd.c.o: ../mylib/mypwd.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/mypwd.h
 
 CMakeFiles/untitled1.dir/mylib/myrename.c.o: ../mylib/myrename.c \
@@ -1867,6 +2037,7 @@ CMakeFiles/untitled1.dir/mylib/myrename.c.o: ../mylib/myrename.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -1966,6 +2137,8 @@ CMakeFiles/untitled1.dir/mylib/myrename.c.o: ../mylib/myrename.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/myrename.h
 
 CMakeFiles/untitled1.dir/mylib/myrmdir.c.o: ../mylib/myrmdir.c \
@@ -1990,6 +2163,7 @@ CMakeFiles/untitled1.dir/mylib/myrmdir.c.o: ../mylib/myrmdir.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -2089,6 +2263,8 @@ CMakeFiles/untitled1.dir/mylib/myrmdir.c.o: ../mylib/myrmdir.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/myrmdir.h
 
 CMakeFiles/untitled1.dir/mylib/mystring.c.o: ../mylib/mystring.c \
@@ -2167,6 +2343,7 @@ CMakeFiles/untitled1.dir/mylib/mytime.c.o: ../mylib/mytime.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -2266,6 +2443,8 @@ CMakeFiles/untitled1.dir/mylib/mytime.c.o: ../mylib/mytime.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/mytime.h
 
 CMakeFiles/untitled1.dir/mylib/mytouch.c.o: ../mylib/mytouch.c \
@@ -2290,6 +2469,7 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o: ../mylib/mytouch.c \
   ../mylib/mygetppid.h \
   ../mylib/mygetuid.h \
   ../mylib/mygetpidPereFils.h \
+  ../mylib/myotherpid.h \
   /usr/include/stdio.h \
   /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
   /usr/include/features.h \
@@ -2389,6 +2569,8 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o: ../mylib/mytouch.c \
   /usr/include/x86_64-linux-gnu/asm/errno.h \
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
+  /usr/include/wait.h \
+  /usr/include/x86_64-linux-gnu/sys/wait.h \
   ../mylib/mytouch.h
 
 
@@ -2400,19 +2582,23 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o: ../mylib/mytouch.c \
 
 ../mylib/mypwd.c:
 
+../mylib/myotherpid.c:
+
 ../mylib/myls.c:
 
 ../mylib/myhelp.c:
 
 ../mylib/mygetpid++.h:
 
-/usr/include/x86_64-linux-gnu/sys/wait.h:
-
 ../mylib/mygetpid++.c:
 
 ../mylib/mycls.c:
 
 ../mylib/mycd.c:
+
+/usr/include/x86_64-linux-gnu/sys/wait.h:
+
+/usr/include/wait.h:
 
 /usr/include/asm-generic/errno-base.h:
 
@@ -2496,6 +2682,8 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o: ../mylib/mytouch.c \
 
 ../mylib/myecho.h:
 
+../mylib/myotherpid.h:
+
 ../main.c:
 
 ../mylib/mystring.h:
@@ -2570,8 +2758,6 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o: ../mylib/mytouch.c \
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 
-/usr/include/x86_64-linux-gnu/bits/waitflags.h:
-
 /usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
 ../mylib/mygetppid.h:
@@ -2581,6 +2767,8 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o: ../mylib/mytouch.c \
 /usr/include/signal.h:
 
 ../mylib/mygetpidPereFils.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
 /usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
@@ -2636,6 +2824,14 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o: ../mylib/mytouch.c \
 
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
+../mylib/mymd.c:
+
+/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+
+/usr/include/x86_64-linux-gnu/gnu/stubs.h:
+
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
 /usr/include/linux/limits.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
@@ -2661,14 +2857,6 @@ CMakeFiles/untitled1.dir/mylib/mytouch.c.o: ../mylib/mytouch.c \
 /usr/include/x86_64-linux-gnu/sys/stat.h:
 
 /usr/include/time.h:
-
-../mylib/mymd.c:
-
-/usr/include/x86_64-linux-gnu/gnu/stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
 
 /usr/include/x86_64-linux-gnu/bits/time.h:
 

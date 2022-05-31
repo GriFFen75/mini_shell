@@ -17,7 +17,7 @@
 
 
 int NbArguments;
-//int Nbcaractere;
+int Nbcaractere;
 
 
 char * shell_read_line(){ //fonctione pour lire les ligne rentré
@@ -29,6 +29,18 @@ char * shell_read_line(){ //fonctione pour lire les ligne rentré
     len = mystrlen(commande);
     commande[caractere-1]='\0';
     return commande;
+
+/*test du getc pour utiliser le <Ctrl>+C */
+//    int i = 0;
+//    while (getchar() != '\n'){
+//        printf("\navant le getc\n");
+//        commande = getchar();
+//        printf("\nLe caractère : %c\n",commande[i]);
+//        i++;
+//    }
+//    Nbcaractere=i;
+//    printf("La commade est : %s\nLe nombre de caractère est %d",commande,Nbcaractere);
+//    return commande;
 }
 
 char** shell_split_line(char * line){ //separe la ligne recupere
@@ -89,6 +101,9 @@ int shell_execute(char** chaineSplit){
     else if (mystrcmp(commande,"cls")==0){
         mycls();
     }
+    else if (mystrcmp(commande,"pid")==0){
+        mygetpidPereFils();
+    }
     else if (mystrcmp(commande,"help")==0){
         myhelp(chaineSplit[1]);
     }
@@ -99,7 +114,9 @@ int shell_execute(char** chaineSplit){
         return EXIT_SUCCESS;
     }
     else{
-        printf ("\nCe que vous avez ecris n'est pas une commande\nConsultez la liste des commandes possible avec 'manuel'");
+        //printf ("\nCe que vous avez ecris n'est pas une commande\nConsultez la liste des commandes possible avec 'manuel'");
+        printf("Recherche dans le repertoire bin :\n");
+        myotherpid(chaineSplit);
     }
 }
 
@@ -125,6 +142,7 @@ int main(int argc, char **argv){
     printf("Mini SHELL - exit pour Quitter \n");
     // Run command loop.
     shell_loop();
+//    signal(SIGTERM, ); pour faire quelque chose quand on ferme le prog
     printf("\n\nFin du Mini SHELL \n");
     return EXIT_SUCCESS;
 }

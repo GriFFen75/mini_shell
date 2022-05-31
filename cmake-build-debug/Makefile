@@ -465,6 +465,30 @@ mylib/mymd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mymd.c.s
 .PHONY : mylib/mymd.c.s
 
+mylib/myotherpid.o: mylib/myotherpid.c.o
+.PHONY : mylib/myotherpid.o
+
+# target to build an object file
+mylib/myotherpid.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myotherpid.c.o
+.PHONY : mylib/myotherpid.c.o
+
+mylib/myotherpid.i: mylib/myotherpid.c.i
+.PHONY : mylib/myotherpid.i
+
+# target to preprocess a source file
+mylib/myotherpid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myotherpid.c.i
+.PHONY : mylib/myotherpid.c.i
+
+mylib/myotherpid.s: mylib/myotherpid.c.s
+.PHONY : mylib/myotherpid.s
+
+# target to generate assembly for a file
+mylib/myotherpid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myotherpid.c.s
+.PHONY : mylib/myotherpid.c.s
+
 mylib/mypwd.o: mylib/mypwd.c.o
 .PHONY : mylib/mypwd.o
 
@@ -660,6 +684,9 @@ help:
 	@echo "... mylib/mymd.o"
 	@echo "... mylib/mymd.i"
 	@echo "... mylib/mymd.s"
+	@echo "... mylib/myotherpid.o"
+	@echo "... mylib/myotherpid.i"
+	@echo "... mylib/myotherpid.s"
 	@echo "... mylib/mypwd.o"
 	@echo "... mylib/mypwd.i"
 	@echo "... mylib/mypwd.s"

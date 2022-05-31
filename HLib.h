@@ -23,6 +23,7 @@
 #include "mylib/mygetppid.h"
 #include "mylib/mygetuid.h"
 #include "mylib/mygetpidPereFils.h"
+#include "mylib/myothercommand.h"
 
 
 
@@ -39,5 +40,6 @@
 #include <signal.h>
 #include <error.h>
 #include <errno.h>
+#include <wait.h>
 
 #endif //UNTITLED1_HLIB_H
