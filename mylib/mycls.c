@@ -6,7 +6,7 @@
 
 #include "mycls.h"
 
-void mycls(){
+int mycls(){
     for (int i = 0; i < 100; ++i) {
         printf("\n");
     }

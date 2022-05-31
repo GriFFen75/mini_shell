@@ -1,7 +1,7 @@
 #include "HLib.h"
 
 //la foncione pipe et fork et awk peuvent etre utile .
-//gcc mylib/mycd.c mylib/mydate.c mylib/myecho.c mylib/myhelp.c mylib/myhistory.c mylib/myls.c mylib/mymd.c mylib/mypwd.c mylib/myrename.c mylib/myrmdir.c mylib/mystring.c mylib/mytime.c mylib/mytouch.c main.c -o GRFShell
+//gcc mylib/mycd.c mylib/mydate.c mylib/myecho.c mylib/myhelp.c mylib/myhistory.c mylib/myls.c mylib/mymd.c mylib/mypwd.c mylib/myrename.c mylib/myrmdir.c mylib/mystring.c mylib/mytime.c mylib/mytouch.c  main.c -o GRFShell
 //voir la commande signal
 //faire les arrow
 
@@ -10,6 +10,10 @@
 
 /*ajouter la commande dans un fichier GRFShellrc
  * */
+
+/*utiliser fgets sur windows*/
+
+/*refaire le tout avec un getc au lieux de getline pour pouvoir regler les tabulations avec \t*/
 
 
 int NbArguments;
@@ -52,22 +56,22 @@ int shell_execute(char** chaineSplit){
     if (mystrcmp(commande,"cd")==0){
         mycd(chaineSplit[1]);
     }
-    else if (mystrcmp(commande,"ls")==0){       //fini mais je sort a chaque foi
+    else if (mystrcmp(commande,"ls")==0){
         myls(chaineSplit[1]);
     }
-    else if (mystrcmp(commande,"rm")==0){       //le prog sort
+    else if (mystrcmp(commande,"rm")==0){
         myrmdir(chaineSplit[1]);
     }
-    else if (mystrcmp(commande,"ren")==0){           //fini mais sort du prog a chaque foi
+    else if (mystrcmp(commande,"ren")==0 || mystrcmp(commande,"rename")==0){
         myrename(chaineSplit[1],chaineSplit[2]);
     }
     else if (mystrcmp(commande,"echo")==0){
         myecho(chaineSplit,NbArguments);
     }
-    else if (mystrcmp(commande,"md")==0){ //je sort a chaque foi
+    else if (mystrcmp(commande,"md")==0 || mystrcmp(commande,"mkdir")==0){
         mymd(chaineSplit[1]);
     }
-    else if (mystrcmp(commande,"history")==0){ //changer le path du history quand on aura fini //toujours le meme probleme mon prog sort
+    else if (mystrcmp(commande,"history")==0){ //faut que je change les paths
         myhistory(chaineSplit[1]);
     }
     else if (mystrcmp(commande,"pwd")==0){

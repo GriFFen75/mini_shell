@@ -1,11 +1,11 @@
 
-ls -la | grep /bin/GRFShell
-cls
-clear
-exit
-setxkbmap fr
-cd /opt/clion-2022.1.1/bin
-./clion.sh
+open
+sudo -s
+cd ..
+ls
+cd /media/sf_dossier_paratager/
+sudo cd /media/sf_dossier_paratager/
+sudo -s
 setxkbmap fr
 cd /opt/clion-2022.1.1/bin
 ./clion.sh

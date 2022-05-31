@@ -5,6 +5,6 @@
 #ifndef UNTITLED1_MYCLS_H
 #define UNTITLED1_MYCLS_H
 
-void mycls();
+int mycls();
 
 #endif //UNTITLED1_MYCLS_H
