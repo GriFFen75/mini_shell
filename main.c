@@ -1,6 +1,6 @@
 #include "HLib.h"
 
-//la foncione pipe et fork peuvent etre utile .
+//la foncione pipe et fork et awk peuvent etre utile .
 //gcc mylib/mycd.c mylib/mydate.c mylib/myecho.c mylib/myhelp.c mylib/myhistory.c mylib/myls.c mylib/mymd.c mylib/mypwd.c mylib/myrename.c mylib/myrmdir.c mylib/mystring.c mylib/mytime.c mylib/mytouch.c main.c -o GRFShell
 //voir la commande signal
 //faire les arrow
@@ -110,6 +110,8 @@ void shell_loop(void){
 //        printf("dans shell_loop chaineSplit[0] : %s\n",chaineSplit[0]);
 //        printf("printf dans shell_loop : %s\n",line);
         status = shell_execute(chaineSplit);
+        free(line);
+        free(chaineSplit);
     } while (status);
 }
 

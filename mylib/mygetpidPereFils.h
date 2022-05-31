@@ -1,0 +1,10 @@
+//
+// Created by kali on 5/31/22.
+//
+
+#ifndef UNTITLED1_MYGETPIDPEREFILS_H
+#define UNTITLED1_MYGETPIDPEREFILS_H
+
+int mygetpidPereFils();
+
+#endif //UNTITLED1_MYGETPIDPEREFILS_H

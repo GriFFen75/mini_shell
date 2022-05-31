@@ -279,6 +279,76 @@ CMakeFiles/untitled1.dir/mylib/mycls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/mylib/mycls.c.s"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kali/CLionProjects/mini_shellG/mylib/mycls.c -o CMakeFiles/untitled1.dir/mylib/mycls.c.s
 
+CMakeFiles/untitled1.dir/mylib/mygetpid.c.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/mylib/mygetpid.c.o: ../mylib/mygetpid.c
+CMakeFiles/untitled1.dir/mylib/mygetpid.c.o: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kali/CLionProjects/mini_shellG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/untitled1.dir/mylib/mygetpid.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/mylib/mygetpid.c.o -MF CMakeFiles/untitled1.dir/mylib/mygetpid.c.o.d -o CMakeFiles/untitled1.dir/mylib/mygetpid.c.o -c /home/kali/CLionProjects/mini_shellG/mylib/mygetpid.c
+
+CMakeFiles/untitled1.dir/mylib/mygetpid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled1.dir/mylib/mygetpid.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kali/CLionProjects/mini_shellG/mylib/mygetpid.c > CMakeFiles/untitled1.dir/mylib/mygetpid.c.i
+
+CMakeFiles/untitled1.dir/mylib/mygetpid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/mylib/mygetpid.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kali/CLionProjects/mini_shellG/mylib/mygetpid.c -o CMakeFiles/untitled1.dir/mylib/mygetpid.c.s
+
+CMakeFiles/untitled1.dir/mylib/mygetppid.c.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/mylib/mygetppid.c.o: ../mylib/mygetppid.c
+CMakeFiles/untitled1.dir/mylib/mygetppid.c.o: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kali/CLionProjects/mini_shellG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/untitled1.dir/mylib/mygetppid.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/mylib/mygetppid.c.o -MF CMakeFiles/untitled1.dir/mylib/mygetppid.c.o.d -o CMakeFiles/untitled1.dir/mylib/mygetppid.c.o -c /home/kali/CLionProjects/mini_shellG/mylib/mygetppid.c
+
+CMakeFiles/untitled1.dir/mylib/mygetppid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled1.dir/mylib/mygetppid.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kali/CLionProjects/mini_shellG/mylib/mygetppid.c > CMakeFiles/untitled1.dir/mylib/mygetppid.c.i
+
+CMakeFiles/untitled1.dir/mylib/mygetppid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/mylib/mygetppid.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kali/CLionProjects/mini_shellG/mylib/mygetppid.c -o CMakeFiles/untitled1.dir/mylib/mygetppid.c.s
+
+CMakeFiles/untitled1.dir/mylib/mygetuid.c.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/mylib/mygetuid.c.o: ../mylib/mygetuid.c
+CMakeFiles/untitled1.dir/mylib/mygetuid.c.o: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kali/CLionProjects/mini_shellG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/untitled1.dir/mylib/mygetuid.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/mylib/mygetuid.c.o -MF CMakeFiles/untitled1.dir/mylib/mygetuid.c.o.d -o CMakeFiles/untitled1.dir/mylib/mygetuid.c.o -c /home/kali/CLionProjects/mini_shellG/mylib/mygetuid.c
+
+CMakeFiles/untitled1.dir/mylib/mygetuid.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled1.dir/mylib/mygetuid.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kali/CLionProjects/mini_shellG/mylib/mygetuid.c > CMakeFiles/untitled1.dir/mylib/mygetuid.c.i
+
+CMakeFiles/untitled1.dir/mylib/mygetuid.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/mylib/mygetuid.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kali/CLionProjects/mini_shellG/mylib/mygetuid.c -o CMakeFiles/untitled1.dir/mylib/mygetuid.c.s
+
+CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o: ../mylib/mygetpidPereFils.c
+CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kali/CLionProjects/mini_shellG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o -MF CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o.d -o CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o -c /home/kali/CLionProjects/mini_shellG/mylib/mygetpidPereFils.c
+
+CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kali/CLionProjects/mini_shellG/mylib/mygetpidPereFils.c > CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.i
+
+CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kali/CLionProjects/mini_shellG/mylib/mygetpidPereFils.c -o CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.s
+
+CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o: ../mylib/mygetpid++.c
+CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kali/CLionProjects/mini_shellG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o -MF CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o.d -o CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o -c /home/kali/CLionProjects/mini_shellG/mylib/mygetpid++.c
+
+CMakeFiles/untitled1.dir/mylib/mygetpid++.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled1.dir/mylib/mygetpid++.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kali/CLionProjects/mini_shellG/mylib/mygetpid++.c > CMakeFiles/untitled1.dir/mylib/mygetpid++.c.i
+
+CMakeFiles/untitled1.dir/mylib/mygetpid++.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/mylib/mygetpid++.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kali/CLionProjects/mini_shellG/mylib/mygetpid++.c -o CMakeFiles/untitled1.dir/mylib/mygetpid++.c.s
+
 # Object files for target untitled1
 untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/main.c.o" \
@@ -295,7 +365,12 @@ untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/mylib/myhistory.c.o" \
 "CMakeFiles/untitled1.dir/mylib/mydate.c.o" \
 "CMakeFiles/untitled1.dir/mylib/mytime.c.o" \
-"CMakeFiles/untitled1.dir/mylib/mycls.c.o"
+"CMakeFiles/untitled1.dir/mylib/mycls.c.o" \
+"CMakeFiles/untitled1.dir/mylib/mygetpid.c.o" \
+"CMakeFiles/untitled1.dir/mylib/mygetppid.c.o" \
+"CMakeFiles/untitled1.dir/mylib/mygetuid.c.o" \
+"CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o" \
+"CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o"
 
 # External object files for target untitled1
 untitled1_EXTERNAL_OBJECTS =
@@ -315,9 +390,14 @@ untitled1: CMakeFiles/untitled1.dir/mylib/myhistory.c.o
 untitled1: CMakeFiles/untitled1.dir/mylib/mydate.c.o
 untitled1: CMakeFiles/untitled1.dir/mylib/mytime.c.o
 untitled1: CMakeFiles/untitled1.dir/mylib/mycls.c.o
+untitled1: CMakeFiles/untitled1.dir/mylib/mygetpid.c.o
+untitled1: CMakeFiles/untitled1.dir/mylib/mygetppid.c.o
+untitled1: CMakeFiles/untitled1.dir/mylib/mygetuid.c.o
+untitled1: CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o
+untitled1: CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o
 untitled1: CMakeFiles/untitled1.dir/build.make
 untitled1: CMakeFiles/untitled1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kali/CLionProjects/mini_shellG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking C executable untitled1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kali/CLionProjects/mini_shellG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking C executable untitled1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

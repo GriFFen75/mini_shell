@@ -19,6 +19,13 @@
 #include "mylib/mydate.h"
 #include "mylib/mytime.h"
 #include "mylib/mycls.h"
+#include "mylib/mygetpid.h"
+#include "mylib/mygetppid.h"
+#include "mylib/mygetuid.h"
+#include "mylib/mygetpidPereFils.h"
+
+
+
 
 
 

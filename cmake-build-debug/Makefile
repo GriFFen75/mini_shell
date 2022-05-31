@@ -249,6 +249,126 @@ mylib/myecho.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myecho.c.s
 .PHONY : mylib/myecho.c.s
 
+mylib/mygetpid++.o: mylib/mygetpid++.c.o
+.PHONY : mylib/mygetpid++.o
+
+# target to build an object file
+mylib/mygetpid++.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o
+.PHONY : mylib/mygetpid++.c.o
+
+mylib/mygetpid++.i: mylib/mygetpid++.c.i
+.PHONY : mylib/mygetpid++.i
+
+# target to preprocess a source file
+mylib/mygetpid++.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetpid++.c.i
+.PHONY : mylib/mygetpid++.c.i
+
+mylib/mygetpid++.s: mylib/mygetpid++.c.s
+.PHONY : mylib/mygetpid++.s
+
+# target to generate assembly for a file
+mylib/mygetpid++.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetpid++.c.s
+.PHONY : mylib/mygetpid++.c.s
+
+mylib/mygetpid.o: mylib/mygetpid.c.o
+.PHONY : mylib/mygetpid.o
+
+# target to build an object file
+mylib/mygetpid.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetpid.c.o
+.PHONY : mylib/mygetpid.c.o
+
+mylib/mygetpid.i: mylib/mygetpid.c.i
+.PHONY : mylib/mygetpid.i
+
+# target to preprocess a source file
+mylib/mygetpid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetpid.c.i
+.PHONY : mylib/mygetpid.c.i
+
+mylib/mygetpid.s: mylib/mygetpid.c.s
+.PHONY : mylib/mygetpid.s
+
+# target to generate assembly for a file
+mylib/mygetpid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetpid.c.s
+.PHONY : mylib/mygetpid.c.s
+
+mylib/mygetpidPereFils.o: mylib/mygetpidPereFils.c.o
+.PHONY : mylib/mygetpidPereFils.o
+
+# target to build an object file
+mylib/mygetpidPereFils.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o
+.PHONY : mylib/mygetpidPereFils.c.o
+
+mylib/mygetpidPereFils.i: mylib/mygetpidPereFils.c.i
+.PHONY : mylib/mygetpidPereFils.i
+
+# target to preprocess a source file
+mylib/mygetpidPereFils.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.i
+.PHONY : mylib/mygetpidPereFils.c.i
+
+mylib/mygetpidPereFils.s: mylib/mygetpidPereFils.c.s
+.PHONY : mylib/mygetpidPereFils.s
+
+# target to generate assembly for a file
+mylib/mygetpidPereFils.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.s
+.PHONY : mylib/mygetpidPereFils.c.s
+
+mylib/mygetppid.o: mylib/mygetppid.c.o
+.PHONY : mylib/mygetppid.o
+
+# target to build an object file
+mylib/mygetppid.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetppid.c.o
+.PHONY : mylib/mygetppid.c.o
+
+mylib/mygetppid.i: mylib/mygetppid.c.i
+.PHONY : mylib/mygetppid.i
+
+# target to preprocess a source file
+mylib/mygetppid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetppid.c.i
+.PHONY : mylib/mygetppid.c.i
+
+mylib/mygetppid.s: mylib/mygetppid.c.s
+.PHONY : mylib/mygetppid.s
+
+# target to generate assembly for a file
+mylib/mygetppid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetppid.c.s
+.PHONY : mylib/mygetppid.c.s
+
+mylib/mygetuid.o: mylib/mygetuid.c.o
+.PHONY : mylib/mygetuid.o
+
+# target to build an object file
+mylib/mygetuid.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetuid.c.o
+.PHONY : mylib/mygetuid.c.o
+
+mylib/mygetuid.i: mylib/mygetuid.c.i
+.PHONY : mylib/mygetuid.i
+
+# target to preprocess a source file
+mylib/mygetuid.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetuid.c.i
+.PHONY : mylib/mygetuid.c.i
+
+mylib/mygetuid.s: mylib/mygetuid.c.s
+.PHONY : mylib/mygetuid.s
+
+# target to generate assembly for a file
+mylib/mygetuid.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mygetuid.c.s
+.PHONY : mylib/mygetuid.c.s
+
 mylib/myhelp.o: mylib/myhelp.c.o
 .PHONY : mylib/myhelp.o
 
@@ -513,6 +633,21 @@ help:
 	@echo "... mylib/myecho.o"
 	@echo "... mylib/myecho.i"
 	@echo "... mylib/myecho.s"
+	@echo "... mylib/mygetpid++.o"
+	@echo "... mylib/mygetpid++.i"
+	@echo "... mylib/mygetpid++.s"
+	@echo "... mylib/mygetpid.o"
+	@echo "... mylib/mygetpid.i"
+	@echo "... mylib/mygetpid.s"
+	@echo "... mylib/mygetpidPereFils.o"
+	@echo "... mylib/mygetpidPereFils.i"
+	@echo "... mylib/mygetpidPereFils.s"
+	@echo "... mylib/mygetppid.o"
+	@echo "... mylib/mygetppid.i"
+	@echo "... mylib/mygetppid.s"
+	@echo "... mylib/mygetuid.o"
+	@echo "... mylib/mygetuid.i"
+	@echo "... mylib/mygetuid.s"
 	@echo "... mylib/myhelp.o"
 	@echo "... mylib/myhelp.i"
 	@echo "... mylib/myhelp.s"
