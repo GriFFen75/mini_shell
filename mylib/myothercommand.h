@@ -5,6 +5,6 @@
 #ifndef UNTITLED1_MYOTHERCOMMAND_H
 #define UNTITLED1_MYOTHERCOMMAND_H
 
-void myotherpid(char ** argv);
+void myothercommande(char ** argv);
 
 #endif //UNTITLED1_MYOTHERCOMMAND_H

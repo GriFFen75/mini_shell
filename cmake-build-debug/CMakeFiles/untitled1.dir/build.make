@@ -349,19 +349,47 @@ CMakeFiles/untitled1.dir/mylib/mygetpid++.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/mylib/mygetpid++.c.s"
 	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kali/CLionProjects/mini_shellG/mylib/mygetpid++.c -o CMakeFiles/untitled1.dir/mylib/mygetpid++.c.s
 
-CMakeFiles/untitled1.dir/mylib/myotherpid.c.o: CMakeFiles/untitled1.dir/flags.make
-CMakeFiles/untitled1.dir/mylib/myotherpid.c.o: ../mylib/myotherpid.c
-CMakeFiles/untitled1.dir/mylib/myotherpid.c.o: CMakeFiles/untitled1.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kali/CLionProjects/mini_shellG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/untitled1.dir/mylib/myotherpid.c.o"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/mylib/myotherpid.c.o -MF CMakeFiles/untitled1.dir/mylib/myotherpid.c.o.d -o CMakeFiles/untitled1.dir/mylib/myotherpid.c.o -c /home/kali/CLionProjects/mini_shellG/mylib/myotherpid.c
+CMakeFiles/untitled1.dir/mylib/myothercommand.c.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/mylib/myothercommand.c.o: ../mylib/myothercommand.c
+CMakeFiles/untitled1.dir/mylib/myothercommand.c.o: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kali/CLionProjects/mini_shellG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/untitled1.dir/mylib/myothercommand.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/mylib/myothercommand.c.o -MF CMakeFiles/untitled1.dir/mylib/myothercommand.c.o.d -o CMakeFiles/untitled1.dir/mylib/myothercommand.c.o -c /home/kali/CLionProjects/mini_shellG/mylib/myothercommand.c
 
-CMakeFiles/untitled1.dir/mylib/myotherpid.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled1.dir/mylib/myotherpid.c.i"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kali/CLionProjects/mini_shellG/mylib/myotherpid.c > CMakeFiles/untitled1.dir/mylib/myotherpid.c.i
+CMakeFiles/untitled1.dir/mylib/myothercommand.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled1.dir/mylib/myothercommand.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kali/CLionProjects/mini_shellG/mylib/myothercommand.c > CMakeFiles/untitled1.dir/mylib/myothercommand.c.i
 
-CMakeFiles/untitled1.dir/mylib/myotherpid.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/mylib/myotherpid.c.s"
-	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kali/CLionProjects/mini_shellG/mylib/myotherpid.c -o CMakeFiles/untitled1.dir/mylib/myotherpid.c.s
+CMakeFiles/untitled1.dir/mylib/myothercommand.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/mylib/myothercommand.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kali/CLionProjects/mini_shellG/mylib/myothercommand.c -o CMakeFiles/untitled1.dir/mylib/myothercommand.c.s
+
+CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.o: ../mylib/myexitctrlc.c
+CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.o: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kali/CLionProjects/mini_shellG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.o -MF CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.o.d -o CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.o -c /home/kali/CLionProjects/mini_shellG/mylib/myexitctrlc.c
+
+CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kali/CLionProjects/mini_shellG/mylib/myexitctrlc.c > CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.i
+
+CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kali/CLionProjects/mini_shellG/mylib/myexitctrlc.c -o CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.s
+
+CMakeFiles/untitled1.dir/mylib/mypathHistory.c.o: CMakeFiles/untitled1.dir/flags.make
+CMakeFiles/untitled1.dir/mylib/mypathHistory.c.o: ../mylib/mypathHistory.c
+CMakeFiles/untitled1.dir/mylib/mypathHistory.c.o: CMakeFiles/untitled1.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kali/CLionProjects/mini_shellG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/untitled1.dir/mylib/mypathHistory.c.o"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/untitled1.dir/mylib/mypathHistory.c.o -MF CMakeFiles/untitled1.dir/mylib/mypathHistory.c.o.d -o CMakeFiles/untitled1.dir/mylib/mypathHistory.c.o -c /home/kali/CLionProjects/mini_shellG/mylib/mypathHistory.c
+
+CMakeFiles/untitled1.dir/mylib/mypathHistory.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled1.dir/mylib/mypathHistory.c.i"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kali/CLionProjects/mini_shellG/mylib/mypathHistory.c > CMakeFiles/untitled1.dir/mylib/mypathHistory.c.i
+
+CMakeFiles/untitled1.dir/mylib/mypathHistory.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled1.dir/mylib/mypathHistory.c.s"
+	/usr/bin/gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kali/CLionProjects/mini_shellG/mylib/mypathHistory.c -o CMakeFiles/untitled1.dir/mylib/mypathHistory.c.s
 
 # Object files for target untitled1
 untitled1_OBJECTS = \
@@ -385,7 +413,9 @@ untitled1_OBJECTS = \
 "CMakeFiles/untitled1.dir/mylib/mygetuid.c.o" \
 "CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o" \
 "CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o" \
-"CMakeFiles/untitled1.dir/mylib/myotherpid.c.o"
+"CMakeFiles/untitled1.dir/mylib/myothercommand.c.o" \
+"CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.o" \
+"CMakeFiles/untitled1.dir/mylib/mypathHistory.c.o"
 
 # External object files for target untitled1
 untitled1_EXTERNAL_OBJECTS =
@@ -410,10 +440,12 @@ untitled1: CMakeFiles/untitled1.dir/mylib/mygetppid.c.o
 untitled1: CMakeFiles/untitled1.dir/mylib/mygetuid.c.o
 untitled1: CMakeFiles/untitled1.dir/mylib/mygetpidPereFils.c.o
 untitled1: CMakeFiles/untitled1.dir/mylib/mygetpid++.c.o
-untitled1: CMakeFiles/untitled1.dir/mylib/myotherpid.c.o
+untitled1: CMakeFiles/untitled1.dir/mylib/myothercommand.c.o
+untitled1: CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.o
+untitled1: CMakeFiles/untitled1.dir/mylib/mypathHistory.c.o
 untitled1: CMakeFiles/untitled1.dir/build.make
 untitled1: CMakeFiles/untitled1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kali/CLionProjects/mini_shellG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking C executable untitled1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kali/CLionProjects/mini_shellG/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking C executable untitled1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

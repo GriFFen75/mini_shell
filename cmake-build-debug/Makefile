@@ -249,6 +249,30 @@ mylib/myecho.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myecho.c.s
 .PHONY : mylib/myecho.c.s
 
+mylib/myexitctrlc.o: mylib/myexitctrlc.c.o
+.PHONY : mylib/myexitctrlc.o
+
+# target to build an object file
+mylib/myexitctrlc.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.o
+.PHONY : mylib/myexitctrlc.c.o
+
+mylib/myexitctrlc.i: mylib/myexitctrlc.c.i
+.PHONY : mylib/myexitctrlc.i
+
+# target to preprocess a source file
+mylib/myexitctrlc.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.i
+.PHONY : mylib/myexitctrlc.c.i
+
+mylib/myexitctrlc.s: mylib/myexitctrlc.c.s
+.PHONY : mylib/myexitctrlc.s
+
+# target to generate assembly for a file
+mylib/myexitctrlc.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myexitctrlc.c.s
+.PHONY : mylib/myexitctrlc.c.s
+
 mylib/mygetpid++.o: mylib/mygetpid++.c.o
 .PHONY : mylib/mygetpid++.o
 
@@ -465,29 +489,53 @@ mylib/mymd.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mymd.c.s
 .PHONY : mylib/mymd.c.s
 
-mylib/myotherpid.o: mylib/myotherpid.c.o
-.PHONY : mylib/myotherpid.o
+mylib/myothercommand.o: mylib/myothercommand.c.o
+.PHONY : mylib/myothercommand.o
 
 # target to build an object file
-mylib/myotherpid.c.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myotherpid.c.o
-.PHONY : mylib/myotherpid.c.o
+mylib/myothercommand.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myothercommand.c.o
+.PHONY : mylib/myothercommand.c.o
 
-mylib/myotherpid.i: mylib/myotherpid.c.i
-.PHONY : mylib/myotherpid.i
+mylib/myothercommand.i: mylib/myothercommand.c.i
+.PHONY : mylib/myothercommand.i
 
 # target to preprocess a source file
-mylib/myotherpid.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myotherpid.c.i
-.PHONY : mylib/myotherpid.c.i
+mylib/myothercommand.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myothercommand.c.i
+.PHONY : mylib/myothercommand.c.i
 
-mylib/myotherpid.s: mylib/myotherpid.c.s
-.PHONY : mylib/myotherpid.s
+mylib/myothercommand.s: mylib/myothercommand.c.s
+.PHONY : mylib/myothercommand.s
 
 # target to generate assembly for a file
-mylib/myotherpid.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myotherpid.c.s
-.PHONY : mylib/myotherpid.c.s
+mylib/myothercommand.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/myothercommand.c.s
+.PHONY : mylib/myothercommand.c.s
+
+mylib/mypathHistory.o: mylib/mypathHistory.c.o
+.PHONY : mylib/mypathHistory.o
+
+# target to build an object file
+mylib/mypathHistory.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mypathHistory.c.o
+.PHONY : mylib/mypathHistory.c.o
+
+mylib/mypathHistory.i: mylib/mypathHistory.c.i
+.PHONY : mylib/mypathHistory.i
+
+# target to preprocess a source file
+mylib/mypathHistory.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mypathHistory.c.i
+.PHONY : mylib/mypathHistory.c.i
+
+mylib/mypathHistory.s: mylib/mypathHistory.c.s
+.PHONY : mylib/mypathHistory.s
+
+# target to generate assembly for a file
+mylib/mypathHistory.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled1.dir/build.make CMakeFiles/untitled1.dir/mylib/mypathHistory.c.s
+.PHONY : mylib/mypathHistory.c.s
 
 mylib/mypwd.o: mylib/mypwd.c.o
 .PHONY : mylib/mypwd.o
@@ -657,6 +705,9 @@ help:
 	@echo "... mylib/myecho.o"
 	@echo "... mylib/myecho.i"
 	@echo "... mylib/myecho.s"
+	@echo "... mylib/myexitctrlc.o"
+	@echo "... mylib/myexitctrlc.i"
+	@echo "... mylib/myexitctrlc.s"
 	@echo "... mylib/mygetpid++.o"
 	@echo "... mylib/mygetpid++.i"
 	@echo "... mylib/mygetpid++.s"
@@ -684,9 +735,12 @@ help:
 	@echo "... mylib/mymd.o"
 	@echo "... mylib/mymd.i"
 	@echo "... mylib/mymd.s"
-	@echo "... mylib/myotherpid.o"
-	@echo "... mylib/myotherpid.i"
-	@echo "... mylib/myotherpid.s"
+	@echo "... mylib/myothercommand.o"
+	@echo "... mylib/myothercommand.i"
+	@echo "... mylib/myothercommand.s"
+	@echo "... mylib/mypathHistory.o"
+	@echo "... mylib/mypathHistory.i"
+	@echo "... mylib/mypathHistory.s"
 	@echo "... mylib/mypwd.o"
 	@echo "... mylib/mypwd.i"
 	@echo "... mylib/mypwd.s"

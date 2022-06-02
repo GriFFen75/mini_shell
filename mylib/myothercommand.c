@@ -6,7 +6,7 @@
 
 #include "myothercommand.h"
 
-void myotherpid(char ** argv){
+void myothercommande(char ** argv){
     pid_t pid_fils;
     pid_fils = fork();
     if(pid_fils == 0){

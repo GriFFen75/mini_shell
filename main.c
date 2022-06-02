@@ -1,7 +1,7 @@
 #include "HLib.h"
 
 //la foncione pipe et fork et awk peuvent etre utile .
-//gcc mylib/mycd.c mylib/mydate.c mylib/myecho.c mylib/myhelp.c mylib/myhistory.c mylib/myls.c mylib/mymd.c mylib/mypwd.c mylib/myrename.c mylib/myrmdir.c mylib/mystring.c mylib/mytime.c mylib/mytouch.c  main.c -o GRFShell
+//gcc mylib/mycd.c mylib/mydate.c mylib/myecho.c mylib/myhelp.c mylib/myhistory.c mylib/myls.c mylib/mymd.c mylib/mypwd.c mylib/myrename.c mylib/myrmdir.c mylib/mystring.c mylib/mytime.c mylib/mytouch.c mylib/mycls.c mylib/mygetpid++.c mylib/mygetpid.c mylib/mygetpidPereFils.c mylib/mygetppid.c mylib/mygetuid.c mylib/myothercommand.c mylib/myexitctrlc.c  main.c -o GRFShell
 //voir la commande signal
 //faire les arrow
 
@@ -20,6 +20,7 @@ int NbArguments;
 int Nbcaractere;
 
 
+
 char * shell_read_line(){ //fonctione pour lire les ligne rentré
     char *commande ;
     size_t len;
@@ -28,6 +29,39 @@ char * shell_read_line(){ //fonctione pour lire les ligne rentré
     caractere = getline(&commande,&len,stdin);
     len = mystrlen(commande);
     commande[caractere-1]='\0';
+
+    //ajout de la commande dans le fichier GRFShellrc
+//    char * homesave = getenv("HOME");
+//    printf("\nLe home  : %s\n",homesave);
+//    putenv("HOME_HOME");
+//    printf("\nLe home_home avant : %s\n",getenv("HOME_HOME"));
+//    char * home_home = getenv("HOME_HOME");
+//    if (home_home == homesave){
+//    }
+//    else{
+//        //setenv("HOME_HOME", homesave,0);
+//    }
+//    home_home = homesave;//getenv("HOME_HOME");
+//    printf("\nLe home_home apres : %s\n",home_home);
+//
+//    char* pathGRFShell_history = mystrcat(home_home,"/.GRFShell_history");
+//    printf("\nLe path de GRFShell_history : %s\n",pathGRFShell_history);
+//    putenv("HIST_PATH");
+//    setenv("HIST_PATH",pathGRFShell_history,1);
+    FILE * GRFShell_history = fopen(getenv("HIST_PATH"),"w");
+    for (int i = 0; i < mystrlen(commande);i++){
+        putc(commande[i],GRFShell_history);
+        //printf("%c\n",commande[i]);
+    }
+    //putc("\n",GRFShell_history);
+    if (unsetenv("HOME_HOME") == 0){
+        unsetenv("HOME_HOME");
+    }
+    //clearenv();//c'est DANGEREUX
+    fclose(GRFShell_history);
+    //putc((char)"\n",GRFShellrc);
+    commande[caractere-1]='\0';
+
     return commande;
 
 /*test du getc pour utiliser le <Ctrl>+C */
@@ -60,12 +94,15 @@ char** shell_split_line(char * line){ //separe la ligne recupere
     //printf("la commande apres strtok est : %s\n",commande);
     return (splitCommande);
 }
-
 int shell_execute(char** chaineSplit){
     char *commande = chaineSplit[0];
 
+    //myexitctrlc();
+    if (chaineSplit[0]==NULL){
+        printf("\nvous n'avez rien écrit\n");
+    }
     //commencement des commandes
-    if (mystrcmp(commande,"cd")==0){
+    else if (mystrcmp(commande,"cd")==0){
         mycd(chaineSplit[1]);
     }
     else if (mystrcmp(commande,"ls")==0){
@@ -116,7 +153,7 @@ int shell_execute(char** chaineSplit){
     else{
         //printf ("\nCe que vous avez ecris n'est pas une commande\nConsultez la liste des commandes possible avec 'manuel'");
         printf("Recherche dans le repertoire bin :\n");
-        myotherpid(chaineSplit);
+        myothercommande(chaineSplit);
     }
 }
 
@@ -125,7 +162,8 @@ void shell_loop(void){
     char **chaineSplit;
     int status;
     do {
-        printf("\nGriFFen_Shell> ");
+        char *repertoireCourant = getcwd(repertoireCourant,255);
+        printf("\nGriFFen_Shell::%s> ", repertoireCourant);
         line = shell_read_line();
         chaineSplit = shell_split_line(line); //separation commande et option
 //        printf("dans shell_loop chaineSplit[0] : %s\n",chaineSplit[0]);
@@ -139,6 +177,9 @@ void shell_loop(void){
 int main(int argc, char **argv){
 
     // Chargement des fichiers de configurations si besoin.
+
+    mypathHistory();
+
     printf("Mini SHELL - exit pour Quitter \n");
     // Run command loop.
     shell_loop();

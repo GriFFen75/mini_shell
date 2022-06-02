@@ -24,8 +24,8 @@
 #include "mylib/mygetuid.h"
 #include "mylib/mygetpidPereFils.h"
 #include "mylib/myothercommand.h"
-
-
+#include "mylib/myexitctrlc.h"
+#include "mylib/mypathHistory.h"
 
 
 

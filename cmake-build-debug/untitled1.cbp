@@ -106,6 +106,12 @@
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myecho.h">
 			<Option target="untitled1"/>
 		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myexitctrlc.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myexitctrlc.h">
+			<Option target="untitled1"/>
+		</Unit>
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mygetpid++.c">
 			<Option target="untitled1"/>
 		</Unit>
@@ -160,10 +166,16 @@
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mymd.h">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myotherpid.c">
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myothercommand.c">
 			<Option target="untitled1"/>
 		</Unit>
-		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myotherpid.h">
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/myothercommand.h">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mypathHistory.c">
+			<Option target="untitled1"/>
+		</Unit>
+		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mypathHistory.h">
 			<Option target="untitled1"/>
 		</Unit>
 		<Unit filename="/home/kali/CLionProjects/mini_shellG/mylib/mypwd.c">
