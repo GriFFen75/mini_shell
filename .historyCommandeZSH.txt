@@ -1,11 +1,11 @@
 
-open
-sudo -s
-cd ..
-ls
-cd /media/sf_dossier_paratager/
-sudo cd /media/sf_dossier_paratager/
-sudo -s
+exit
 setxkbmap fr
+set -o | grep HOME_HOME
+set -o | grep HOME
+set -o
+env
+env | grep HOME
+./GRFShellBackUp
 cd /opt/clion-2022.1.1/bin
 ./clion.sh

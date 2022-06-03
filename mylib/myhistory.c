@@ -16,41 +16,24 @@ int myhistory(char * NbCommandeChar){
     }
     printf("\nLe NbCommande : %d\n",NbCommande);
 
-    char * shell = getenv( "SHELL");
-    register char * home = getenv("HOME");
-
-    if (mystrstr(shell,"zsh")) { //on regarde quel shell on a pour pouvoir travailler en fonction  //j'aurais pu faire juste un open de
-        char * pathHistory= mystrcat(home,"/.zsh_history"); //concatenation du path pour le fopen
-        FILE *FichierHistoryCalculLine = fopen(pathHistory, "r"); //changer ce path là
+        FILE *FichierHistoryCalculLine = fopen(getenv("HIST_PATH"), "r"); //changer ce path là
         if (FichierHistoryCalculLine == NULL) {
             printf("\nle fichier n'a pas été trouvé\n");
             return 1;
         }
         char caractère;
-//        char caractereFor;
         int NbLigne = mystrNbLineFile(FichierHistoryCalculLine);
         int j = 0;
-//        for (int k = 0;(caractereFor = getc(FichierHistoryCalculLine)) != EOF; ++k) { //pour calculer le nombre de ligne max
-//            if (caractereFor == '\n') {
-//                NbLigne++;
-//            }
-//        }
         printf("le nombre de ligne : %d\n", NbLigne);
         fclose(FichierHistoryCalculLine); // on close puis reouvre le fichier pour recommencer a 0
 
 
-        FILE *FichierHistory = fopen(pathHistory, "r");
-        char * pathStokage = "../.historyCommandeZSH.txt"; //le place dans le dossier mini_shell
-        printf("\nLe fichier sera dans : %s\n",pathStokage);
-        FILE *FichierStokage = fopen(pathStokage, "w");
-//        if (FichierStokage == NULL) {
-//            printf("\nle fichier n'a pas été trouvé\nCréation du fichier dans le dossier du projet\n");
-//            mytouch(pathStokage);
-//            fclose(FichierStokage);
-//            FILE *FichierStokage = fopen(pathStokage, "w");
-//        }
+//        FILE *FichierHistory = fopen(getenv("PHS"), "r");
+        FILE *FichierHistory = fopen(getenv("HIST_PATH"), "r");
+        printf("\nLe fichier sera dans : %s\n", getenv("PATH_HISTORY_SHELL_TXT")); //ne fonctionne plus vue que je ne peux pas regler mon beug dans mypathHistory
+        FILE *FichierStokage = fopen(getenv("PATH_HISTORY_SHELL_TXT"), "w");
+
             while ((caractère = getc(FichierHistory)) != EOF) {
-                //putc(caractère, FichierStokage);
                 if (caractère == '\n') {
                     j++;
                 }
@@ -61,7 +44,7 @@ int myhistory(char * NbCommandeChar){
             }
             fclose(FichierHistory);
             fclose(FichierStokage);
-    }
+    /*
     else if (mystrstr(shell,"bash")) { //on regarde quel shell on a pour pouvoir travailler en fonction  //j'aurais pu faire juste un open de
         char * pathHistory= mystrcat(home,"/.bash_history"); //concatenation du path pour le fopen
         FILE *FichierHistoryCalculLine = fopen(pathHistory, "r"); //changer ce path là
@@ -174,9 +157,6 @@ int myhistory(char * NbCommandeChar){
         }
         fclose(FichierHistory);
         fclose(FichierStokage);
-    }
-    else {
-        printf("votre shell n'est pas repertorié veuillez contacter l'administrateur");
-    }
+    }*/
     return 1;
 }
